@@ -1,7 +1,7 @@
 import requests
 import json
 
-def incluir_requisicao_compra(codIntReqCompra, codProj, dtSugestao, obsIntReqCompra, codItem, codProd, qtde):
+def incluir_requisicao_compra(codIntReqCompra, codProj, dtSugestao, obsIntReqCompra, ItensReqCompra):
     """
     Função para incluir uma requisição de compra na API Omie.
     Recebe os seguintes parâmetros:
@@ -9,18 +9,16 @@ def incluir_requisicao_compra(codIntReqCompra, codProj, dtSugestao, obsIntReqCom
         - codProj: Código do projeto.
         - dtSugestao: Data sugerida para a requisição.
         - obsIntReqCompra: Observação interna da requisição.
-        - codItem: Código do item.
-        - codProd: Código do produto.
-        - qtde: Quantidade do item.
+        - ItensReqCompra: Lista de itens (cada item é um dict com codItem, codProd, qtde, precoUnit).
     """
-    # Define o endpoint da API e os headers
     url = "https://app.omie.com.br/api/v1/produtos/requisicaocompra/"
     headers = {
         "Content-type": "application/json"
     }
 
-    # Define o payload com as variáveis recebidas
     payload = {
+        "app_key": "***",  # Ocultado
+        "app_secret": "***",  # Ocultado
         "call": "IncluirReq",
         "param": [
             {
@@ -29,24 +27,12 @@ def incluir_requisicao_compra(codIntReqCompra, codProj, dtSugestao, obsIntReqCom
                 "codProj": codProj,
                 "dtSugestao": dtSugestao,
                 "obsIntReqCompra": obsIntReqCompra,
-                "ItensReqCompra": [
-                    {
-                        "codItem": codItem,
-                        "codProd": codProd,
-                        "precoUnit": 1,  # Valor fixo, pode ser ajustado se necessário
-                        "qtde": qtde
-                    }
-                ]
+                "ItensReqCompra": ItensReqCompra
             }
-        ],
-        "app_key": "1826443506888",  # Inclui app_key diretamente no JSON
-        "app_secret": "c9e60167e96e156e2655a92fdcd77df7"  # Inclui app_secret diretamente no JSON
+        ]
     }
 
-    # Faz a requisição POST
     response = requests.post(url, headers=headers, data=json.dumps(payload))
-
-    # Retorna o status e o corpo da resposta
     print("Status Code:", response.status_code)
     print("Response Body:", response.json())
     return response
