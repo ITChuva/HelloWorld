@@ -2581,3 +2581,932 @@ asyncio.exceptions.CancelledError
 2025-05-19 08:18:08 - INFO - 192.168.88.61:64373 - "OPTIONS /sendmail HTTP/1.1" 200
 2025-05-19 08:18:08 - INFO - Client: 192.168.88.61, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> LIMPADOR MULTIUSO | 500ml | MC1L0004</p>\n                <p><b>Saldo:</b> 4</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Leticia</p>\n                <p><b>Motivo ou OS:</b> Feira Hospitalar</p>\n                <p><b>Data:</b> 2025-05-19</p>\n            "}
 2025-05-19 08:18:08 - INFO - 192.168.88.61:64373 - "POST /sendmail HTTP/1.1" 200
+2025-05-19 08:20:55 - INFO - Shutting down
+2025-05-19 08:20:55 - INFO - Waiting for application shutdown.
+2025-05-19 08:20:55 - INFO - Application shutdown complete.
+2025-05-19 08:20:55 - INFO - Finished server process [7060]
+2025-05-19 08:20:55 - INFO - Stopping reloader process [2724]
+2025-05-19 08:21:23 - INFO - Will watch for changes in these directories: ['C:\\Users\\OPUSMANUALSERVER\\.vscode\\HelloWorld\\PYFolder\\SysServerAutomation']
+2025-05-19 08:21:23 - INFO - Uvicorn running on https://0.0.0.0:5000 (Press CTRL+C to quit)
+2025-05-19 08:21:23 - INFO - Started reloader process [3952] using StatReload
+2025-05-19 08:21:32 - INFO - Started server process [6900]
+2025-05-19 08:21:32 - INFO - Waiting for application startup.
+2025-05-19 08:21:32 - INFO - Application startup complete.
+2025-05-19 08:22:58 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-19 08:22:58 - INFO - 192.168.88.1:55360 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-19 08:22:58 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"30765"}
+2025-05-19 08:23:01 - INFO - 192.168.88.1:55360 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-19 08:43:25 - INFO - Client: 192.168.88.181, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-19 08:43:25 - INFO - 192.168.88.181:57340 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-19 08:43:26 - INFO - Client: 192.168.88.181, Method: GET, Path: /LerEst, Body: 
+2025-05-19 08:43:31 - INFO - 192.168.88.181:57343 - "GET /LerEst HTTP/1.1" 200
+2025-05-19 08:43:57 - INFO - Client: 192.168.88.181, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-19 08:43:57 - INFO - 192.168.88.181:57347 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-19 08:43:57 - INFO - Client: 192.168.88.181, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> NOTEBOOK | I5 11ªGERACAO 14/15&quot; WINDOWS 11 PRO 8GB RAM 256GB SDD COM SAIDA HDMI | MC1N0002</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Colaborador novo</p>\n                <p><b>Data:</b> 2025-05-19</p>\n            "}
+2025-05-19 08:43:57 - INFO - 192.168.88.181:57347 - "POST /sendmail HTTP/1.1" 200
+2025-05-19 08:57:26 - INFO - Client: 192.168.88.61, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-19 08:57:26 - INFO - 192.168.88.61:64824 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-19 08:57:26 - INFO - Client: 192.168.88.61, Method: GET, Path: /LerEst, Body: 
+2025-05-19 08:57:33 - INFO - 192.168.88.61:64824 - "GET /LerEst HTTP/1.1" 200
+2025-05-19 09:34:10 - INFO - Client: 192.168.88.62, Method: GET, Path: /test-page, Body: 
+2025-05-19 09:34:10 - INFO - 192.168.88.62:58688 - "GET /test-page HTTP/1.1" 200
+2025-05-19 09:34:10 - INFO - Client: 192.168.88.62, Method: GET, Path: /favicon.ico, Body: 
+2025-05-19 09:34:10 - INFO - 192.168.88.62:58688 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-19 09:34:17 - INFO - Client: 192.168.88.62, Method: OPTIONS, Path: /NotaFiscal, Body: 
+2025-05-19 09:34:17 - INFO - 192.168.88.62:58701 - "OPTIONS /NotaFiscal HTTP/1.1" 200
+2025-05-19 09:34:17 - INFO - Client: 192.168.88.62, Method: POST, Path: /NotaFiscal, Body: {"numNF":"4071"}
+2025-05-19 09:34:19 - INFO - 192.168.88.62:58701 - "POST /NotaFiscal HTTP/1.1" 200
+2025-05-19 09:56:55 - INFO - Client: 192.168.88.62, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-19 09:56:55 - INFO - 192.168.88.62:59018 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-19 09:56:55 - INFO - Client: 192.168.88.62, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"BB6SV2500072HL"}
+2025-05-19 09:56:58 - INFO - 192.168.88.62:59018 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-19 10:05:34 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-19 10:05:34 - INFO - 192.168.88.1:13400 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-19 10:05:34 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-05-19 10:05:45 - INFO - 192.168.88.1:13400 - "GET /LerEst HTTP/1.1" 200
+2025-05-19 10:54:47 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-19 10:54:47 - INFO - 192.168.88.1:65282 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-19 10:54:47 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"394834"}
+2025-05-19 10:54:50 - INFO - 192.168.88.1:65282 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-19 11:33:29 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-19 11:33:29 - INFO - 192.168.88.1:33029 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-19 11:33:29 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"119010543"}
+2025-05-19 11:33:33 - INFO - 192.168.88.1:33029 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-19 11:35:16 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"2200430937"}
+2025-05-19 11:35:18 - INFO - 192.168.88.1:35582 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-19 11:38:01 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"2190250451"}
+2025-05-19 11:38:03 - INFO - 192.168.88.1:38323 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-19 11:38:58 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"2200801016"}
+2025-05-19 11:39:00 - INFO - 192.168.88.1:62952 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-19 11:55:31 - INFO - Client: 192.168.88.171, Method: GET, Path: /LerEst, Body: 
+2025-05-19 11:55:39 - INFO - 192.168.88.171:51106 - "GET /LerEst HTTP/1.1" 200
+2025-05-19 11:57:26 - INFO - Client: 192.168.88.171, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body: 
+2025-05-19 11:57:26 - INFO - 192.168.88.171:51172 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-19 11:57:26 - INFO - Client: 192.168.88.171, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"codItem":"MC1K0002","qtde":2,"obsReqCompra":"Preciso para o computador da nova colaboradora Mariana, e um para podermos ter em estoque.\n\nAt.te Isaque Santos Fagundes"}
+2025-05-19 11:57:28 - INFO - 192.168.88.171:51172 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-19 14:51:09 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-19 14:51:09 - INFO - 192.168.88.172:52211 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-19 14:51:09 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-05-19 14:51:16 - INFO - 192.168.88.172:52211 - "GET /LerEst HTTP/1.1" 200
+2025-05-19 14:51:56 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-19 14:51:56 - INFO - 192.168.88.172:52260 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-19 14:51:56 - INFO - Client: 192.168.88.172, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> GRAXA | AZUL 500G | MC1G0002</p>\n                <p><b>Saldo:</b> 12</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> LUCAS</p>\n                <p><b>Motivo ou OS:</b> REPOSIÇÃO</p>\n                <p><b>Data:</b> 2025-05-19</p>\n            "}
+2025-05-19 14:51:56 - INFO - 192.168.88.172:52260 - "POST /sendmail HTTP/1.1" 200
+2025-05-19 14:57:23 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-19 14:57:23 - INFO - 192.168.88.1:14501 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-19 14:57:23 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"US00H0900565"}
+2025-05-19 14:57:25 - INFO - 192.168.88.1:14501 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-19 15:09:06 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-19 15:09:06 - INFO - 192.168.88.1:21686 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-19 15:09:06 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"163302897"}
+2025-05-19 15:09:10 - INFO - 192.168.88.1:21686 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-19 16:15:59 - INFO - Client: 192.168.88.1, Method: GET, Path: /test-page, Body: 
+2025-05-19 16:15:59 - INFO - 192.168.88.1:34741 - "GET /test-page HTTP/1.1" 200
+2025-05-19 16:15:59 - INFO - Client: 192.168.88.1, Method: GET, Path: /favicon.ico, Body: 
+2025-05-19 16:15:59 - INFO - 192.168.88.1:34741 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-19 16:16:06 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-19 16:16:06 - INFO - 192.168.88.1:34082 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-19 16:16:06 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-05-19 16:16:17 - INFO - 192.168.88.1:34082 - "GET /LerEst HTTP/1.1" 200
+2025-05-19 17:11:53 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-19 17:11:53 - INFO - 192.168.88.1:2346 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-19 17:11:53 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"000021726"}
+2025-05-19 17:11:57 - INFO - 192.168.88.1:2346 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-20 08:52:45 - INFO - Client: 192.168.88.62, Method: GET, Path: /test-page, Body: 
+2025-05-20 08:52:45 - INFO - 192.168.88.62:62650 - "GET /test-page HTTP/1.1" 200
+2025-05-20 08:52:46 - INFO - Client: 192.168.88.62, Method: GET, Path: /favicon.ico, Body: 
+2025-05-20 08:52:46 - INFO - 192.168.88.62:62650 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-20 08:53:07 - INFO - Client: 192.168.88.62, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-20 08:53:07 - INFO - 192.168.88.62:62663 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-20 08:53:07 - INFO - Client: 192.168.88.62, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"122080028"}
+2025-05-20 08:53:11 - INFO - 192.168.88.62:62665 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-20 08:53:24 - INFO - Client: 192.168.88.62, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"2240461153"}
+2025-05-20 08:53:25 - INFO - 192.168.88.62:62669 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-20 08:53:37 - INFO - Client: 192.168.88.62, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"2230631870"}
+2025-05-20 08:53:39 - INFO - 192.168.88.62:62673 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-20 08:53:51 - INFO - Client: 192.168.88.62, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"2230330069"}
+2025-05-20 08:53:53 - INFO - 192.168.88.62:62675 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-20 08:54:03 - INFO - Client: 192.168.88.62, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"123070263"}
+2025-05-20 08:54:04 - INFO - 192.168.88.62:62677 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-20 08:54:24 - INFO - Client: 192.168.88.62, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"2230631857"}
+2025-05-20 08:54:27 - INFO - 192.168.88.62:62680 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-20 08:54:36 - INFO - Client: 192.168.88.62, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"2230361103"}
+2025-05-20 08:54:38 - INFO - 192.168.88.62:62684 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-20 08:54:48 - INFO - Client: 192.168.88.62, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"2230330067"}
+2025-05-20 08:54:50 - INFO - 192.168.88.62:62686 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-20 09:03:30 - INFO - Client: 192.168.88.181, Method: GET, Path: /test-page, Body: 
+2025-05-20 09:03:30 - INFO - 192.168.88.181:53483 - "GET /test-page HTTP/1.1" 200
+2025-05-20 09:03:31 - INFO - Client: 192.168.88.181, Method: GET, Path: /favicon.ico, Body: 
+2025-05-20 09:03:31 - INFO - 192.168.88.181:53483 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-20 09:03:54 - INFO - Client: 192.168.88.181, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-20 09:03:54 - INFO - 192.168.88.181:53500 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-20 09:03:54 - INFO - Client: 192.168.88.181, Method: GET, Path: /LerEst, Body: 
+2025-05-20 09:04:01 - INFO - 192.168.88.181:53503 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 09:04:30 - INFO - Client: 192.168.88.181, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-20 09:04:30 - INFO - 192.168.88.181:53521 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-20 09:04:30 - INFO - Client: 192.168.88.181, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> PAPEL | HIGIENICO 1 ROLO c/ 300mx10cm | MC1P0004</p>\n                <p><b>Saldo:</b> 18</p>\n                <p><b>Quantidade:</b> 8</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Reposição Vicente</p>\n                <p><b>Data:</b> 0025-05-20</p>\n            "}
+2025-05-20 09:04:30 - INFO - 192.168.88.181:53523 - "POST /sendmail HTTP/1.1" 200
+2025-05-20 09:04:38 - INFO - Client: 192.168.88.181, Method: GET, Path: /LerEst, Body: 
+2025-05-20 09:04:41 - INFO - 192.168.88.181:53530 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 09:04:59 - INFO - Client: 192.168.88.181, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> PAPEL | TOALHA INTERFOLHA PCT C/1000FOLHAS 20x20cm | MC1P0005</p>\n                <p><b>Saldo:</b> 2</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Reposição Vicente</p>\n                <p><b>Data:</b> 2025-05-20</p>\n            "}
+2025-05-20 09:04:59 - INFO - 192.168.88.181:53534 - "POST /sendmail HTTP/1.1" 200
+2025-05-20 09:05:00 - INFO - Client: 192.168.88.181, Method: GET, Path: /LerEst, Body: 
+2025-05-20 09:05:06 - INFO - 192.168.88.181:53534 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 09:05:25 - INFO - Client: 192.168.88.181, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> PEDRA SANITARIA | 25G CARTELA C/12UN | MC1P0006</p>\n                <p><b>Saldo:</b> 3</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Reposição Vicente</p>\n                <p><b>Data:</b> 2025-05-20</p>\n            "}
+2025-05-20 09:05:25 - INFO - 192.168.88.181:53538 - "POST /sendmail HTTP/1.1" 200
+2025-05-20 10:27:46 - INFO - Client: 192.168.88.171, Method: GET, Path: /LerEst, Body: 
+2025-05-20 10:27:53 - INFO - 192.168.88.171:52340 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 10:28:36 - INFO - Client: 192.168.88.171, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-20 10:28:36 - INFO - 192.168.88.171:52343 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-20 10:28:36 - INFO - Client: 192.168.88.171, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> COMPUTADOR | I5 SEGUNDA GERACAO DUAL CORE 8GB DE RAM | MC1C0108</p>\n                <p><b>Saldo:</b> 2</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Isaque Santos Fagundes</p>\n                <p><b>Motivo ou OS:</b> Para Kamilly Magalhães que inicia na segunda feira que vem.</p>\n                <p><b>Data:</b> 2025-05-20</p>\n            "}
+2025-05-20 10:28:36 - INFO - 192.168.88.171:52343 - "POST /sendmail HTTP/1.1" 200
+2025-05-20 10:28:44 - INFO - Client: 192.168.88.171, Method: GET, Path: /LerEst, Body: 
+2025-05-20 10:28:47 - INFO - 192.168.88.171:52347 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 10:29:24 - INFO - Client: 192.168.88.171, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> MONITOR | 19 POLEGADAS LED OU LCD 60HZ HDMI E VGA | MC1M0028</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Isaque Santos Fagundes</p>\n                <p><b>Motivo ou OS:</b> Para Kamilly Magalhães que inicia na segunda feira que vem.</p>\n                <p><b>Data:</b> 2025-05-20</p>\n            "}
+2025-05-20 10:29:24 - INFO - 192.168.88.171:52367 - "POST /sendmail HTTP/1.1" 200
+2025-05-20 10:29:25 - INFO - Client: 192.168.88.171, Method: GET, Path: /LerEst, Body: 
+2025-05-20 10:29:30 - INFO - 192.168.88.171:52367 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 10:29:49 - INFO - Client: 192.168.88.171, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> KIT TECLADO E MOUSE | GENERICOS | MC1K0006</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Isaque Santos Fagundes</p>\n                <p><b>Motivo ou OS:</b> Para Kamilly Magalhães que inicia na segunda feira que vem.</p>\n                <p><b>Data:</b> 2025-05-20</p>\n            "}
+2025-05-20 10:29:49 - INFO - 192.168.88.171:52374 - "POST /sendmail HTTP/1.1" 200
+2025-05-20 10:29:51 - INFO - Client: 192.168.88.171, Method: GET, Path: /LerEst, Body: 
+2025-05-20 10:29:54 - INFO - 192.168.88.171:52374 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 12:47:13 - INFO - Client: 192.168.88.181, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-20 12:47:13 - INFO - 192.168.88.181:60016 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-20 12:47:13 - INFO - Client: 192.168.88.181, Method: GET, Path: /LerEst, Body: 
+2025-05-20 12:47:19 - INFO - 192.168.88.181:60016 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 12:47:37 - INFO - Client: 192.168.88.181, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-20 12:47:37 - INFO - 192.168.88.181:60021 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-20 12:47:37 - INFO - Client: 192.168.88.181, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CADERNO UNIVERSITARIO | 10 MATERIAS ESPIRAL CAPA DURA | MC1C0076</p>\n                <p><b>Saldo:</b> 7</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> novos colaboradores</p>\n                <p><b>Data:</b> 2025-05-20</p>\n            "}
+2025-05-20 12:47:37 - INFO - 192.168.88.181:60021 - "POST /sendmail HTTP/1.1" 200
+2025-05-20 12:47:39 - INFO - Client: 192.168.88.181, Method: GET, Path: /LerEst, Body: 
+2025-05-20 12:47:42 - INFO - 192.168.88.181:60026 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 12:52:24 - INFO - Client: 192.168.88.181, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body: 
+2025-05-20 12:52:24 - INFO - 192.168.88.181:60237 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-20 12:52:25 - INFO - Client: 192.168.88.181, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"codItem":"MC1P0052","qtde":10,"obsReqCompra":"Novos colaboradores.\n\nAté sexta, por favor."}
+2025-05-20 12:52:26 - INFO - 192.168.88.181:60239 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-20 12:57:31 - INFO - Client: 192.168.88.181, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"codItem":"MC1C0135","qtde":3,"obsReqCompra":"Reposição estoque. \n\nDyovanna"}
+2025-05-20 12:57:32 - INFO - 192.168.88.181:60357 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-20 14:22:16 - INFO - Client: 192.168.88.181, Method: GET, Path: /test-page, Body: 
+2025-05-20 14:22:16 - INFO - 192.168.88.181:60948 - "GET /test-page HTTP/1.1" 200
+2025-05-20 14:22:16 - INFO - Client: 192.168.88.181, Method: GET, Path: /favicon.ico, Body: 
+2025-05-20 14:22:16 - INFO - 192.168.88.181:60948 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-20 14:22:36 - INFO - Client: 192.168.88.95, Method: GET, Path: /test-page, Body: 
+2025-05-20 14:22:36 - INFO - 192.168.88.95:50350 - "GET /test-page HTTP/1.1" 200
+2025-05-20 14:22:37 - INFO - Client: 192.168.88.95, Method: GET, Path: /favicon.ico, Body: 
+2025-05-20 14:22:37 - INFO - 192.168.88.95:50350 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-20 14:22:49 - INFO - Client: 192.168.88.95, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-20 14:22:49 - INFO - 192.168.88.95:50356 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-20 14:22:49 - INFO - Client: 192.168.88.95, Method: GET, Path: /LerEst, Body: 
+2025-05-20 14:22:56 - INFO - 192.168.88.95:50356 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 14:53:13 - INFO - Client: 192.168.88.95, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-20 14:53:13 - INFO - 192.168.88.95:50166 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-20 14:53:13 - INFO - Client: 192.168.88.95, Method: GET, Path: /LerEst, Body: 
+2025-05-20 14:53:20 - INFO - 192.168.88.95:50166 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 14:54:22 - INFO - Client: 192.168.88.95, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-20 14:54:22 - INFO - 192.168.88.95:50174 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-20 14:54:22 - INFO - Client: 192.168.88.95, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> RESPIRADOR | N95 PFF2 MASCARA SEMIFACIAL C/VALVULA | MC1R0003</p>\n                <p><b>Saldo:</b> 44</p>\n                <p><b>Quantidade:</b> 30</p>\n                <p><b>Solicitante:</b> Larissa Valentina</p>\n                <p><b>Motivo ou OS:</b> Renovação de Epi's dos colaboradores</p>\n                <p><b>Data:</b> 2025-05-20</p>\n            "}
+2025-05-20 14:54:22 - INFO - 192.168.88.95:50174 - "POST /sendmail HTTP/1.1" 200
+2025-05-20 14:54:25 - INFO - Client: 192.168.88.95, Method: GET, Path: /LerEst, Body: 
+2025-05-20 14:54:30 - INFO - 192.168.88.95:50174 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 14:54:52 - INFO - Client: 192.168.88.95, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> OCULOS | DE SEGURANCA | MC1O0001</p>\n                <p><b>Saldo:</b> 8</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> Larissa Valentina</p>\n                <p><b>Motivo ou OS:</b> Renovação de Epi's dos colaboradores</p>\n                <p><b>Data:</b> 2025-05-20</p>\n            "}
+2025-05-20 14:54:52 - INFO - 192.168.88.95:50179 - "POST /sendmail HTTP/1.1" 200
+2025-05-20 14:54:54 - INFO - Client: 192.168.88.95, Method: GET, Path: /LerEst, Body: 
+2025-05-20 14:54:56 - INFO - 192.168.88.95:50179 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 15:05:28 - INFO - Client: 192.168.88.95, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-20 15:05:28 - INFO - 192.168.88.95:50325 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-20 15:05:28 - INFO - Client: 192.168.88.95, Method: GET, Path: /LerEst, Body: 
+2025-05-20 15:05:33 - INFO - 192.168.88.95:50325 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 15:36:49 - INFO - Client: 192.168.88.95, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-20 15:36:49 - INFO - 192.168.88.95:50604 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-20 15:36:49 - INFO - Client: 192.168.88.95, Method: GET, Path: /LerEst, Body: 
+2025-05-20 15:36:56 - INFO - 192.168.88.95:50604 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 15:46:50 - INFO - Client: 192.168.88.95, Method: GET, Path: /test-page, Body: 
+2025-05-20 15:46:50 - INFO - 192.168.88.95:50729 - "GET /test-page HTTP/1.1" 200
+2025-05-20 15:46:50 - INFO - Client: 192.168.88.95, Method: GET, Path: /favicon.ico, Body: 
+2025-05-20 15:46:50 - INFO - 192.168.88.95:50729 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-20 15:50:39 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-20 15:50:39 - INFO - 192.168.88.172:53413 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-20 15:50:39 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-05-20 15:50:46 - INFO - 192.168.88.172:53413 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 15:51:17 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-20 15:51:17 - INFO - 192.168.88.172:53424 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-20 15:51:17 - INFO - Client: 192.168.88.172, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> BATERIA | ALCALINA 9V | MC1B0024</p>\n                <p><b>Saldo:</b> 3</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> LUCAS</p>\n                <p><b>Motivo ou OS:</b> REPOSIÇÃO</p>\n                <p><b>Data:</b> 2025-05-20</p>\n            "}
+2025-05-20 15:51:18 - INFO - 192.168.88.172:53424 - "POST /sendmail HTTP/1.1" 200
+2025-05-20 15:53:15 - INFO - Client: 192.168.88.95, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body: 
+2025-05-20 15:53:15 - INFO - 192.168.88.95:50841 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-20 15:53:15 - INFO - Client: 192.168.88.95, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"codItem":"MC1L0009","qtde":6,"obsReqCompra":"Solicitante: Larissa Valentina\n\nMotivo: Renovação de epi's dos colaboradores"}
+2025-05-20 15:53:18 - INFO - 192.168.88.95:50841 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-20 16:04:27 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-20 16:04:27 - INFO - 192.168.88.172:54173 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-20 16:04:28 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-05-20 16:04:34 - INFO - 192.168.88.172:54173 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 16:05:00 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-20 16:05:00 - INFO - 192.168.88.172:54176 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-20 16:05:00 - INFO - Client: 192.168.88.172, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> PILHA | ALCALINA TIPO AA 1,5V | MC1P0008</p>\n                <p><b>Saldo:</b> 40</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> LUCAS</p>\n                <p><b>Motivo ou OS:</b> REPOSIÇÃO</p>\n                <p><b>Data:</b> 2025-05-20</p>\n            "}
+2025-05-20 16:05:00 - INFO - 192.168.88.172:54176 - "POST /sendmail HTTP/1.1" 200
+2025-05-20 17:09:29 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-20 17:09:29 - INFO - 192.168.88.172:56847 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-20 17:09:29 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-05-20 17:09:35 - INFO - 192.168.88.172:56850 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 17:10:18 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-20 17:10:18 - INFO - 192.168.88.172:56892 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-20 17:10:18 - INFO - Client: 192.168.88.172, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> VIDEO PRINTER UP-970AD HIBRIDA (SONY) 93599 | 93599-EQ1732</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> MARCELO</p>\n                <p><b>Motivo ou OS:</b> 202500597</p>\n                <p><b>Data:</b> 2025-05-20</p>\n            "}
+2025-05-20 17:10:18 - INFO - 192.168.88.172:56892 - "POST /sendmail HTTP/1.1" 200
+2025-05-20 17:10:19 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-05-20 17:10:22 - INFO - 192.168.88.172:56892 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 17:10:38 - INFO - Client: 192.168.88.172, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> BATERIA | ALCALINA 9V | MC1B0024</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> LUCAS</p>\n                <p><b>Motivo ou OS:</b> REPOSIÇÃO</p>\n                <p><b>Data:</b> 2025-05-20</p>\n            "}
+2025-05-20 17:10:38 - INFO - 192.168.88.172:56902 - "POST /sendmail HTTP/1.1" 200
+2025-05-20 17:36:41 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-20 17:36:41 - INFO - 192.168.88.1:49763 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-20 17:36:41 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-05-20 17:36:48 - INFO - 192.168.88.1:49763 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 17:37:03 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-20 17:37:03 - INFO - 192.168.88.1:50944 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-20 17:37:03 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> PLASTICO | BOLHA 1.30 X 100 MTS ROLO TRANSPARENTE | MC1P0019</p>\n                <p><b>Saldo:</b> 15</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> Renan</p>\n                <p><b>Motivo ou OS:</b> Vicente Martins</p>\n                <p><b>Data:</b> 2025-05-20</p>\n            "}
+2025-05-20 17:37:03 - INFO - 192.168.88.1:50944 - "POST /sendmail HTTP/1.1" 200
+2025-05-20 17:37:06 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-05-20 17:37:09 - INFO - 192.168.88.1:50944 - "GET /LerEst HTTP/1.1" 200
+2025-05-20 17:37:29 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> PLASTICO | FILME STRETCH 500MM ROLO MINIMO 4KG 25 MICRAS TRANSPARENTE | MC1P0020</p>\n                <p><b>Saldo:</b> 12</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> Renan</p>\n                <p><b>Motivo ou OS:</b> Vicente Martins</p>\n                <p><b>Data:</b> 2025-05-20</p>\n            "}
+2025-05-20 17:37:30 - INFO - 192.168.88.1:50182 - "POST /sendmail HTTP/1.1" 200
+2025-05-21 10:07:26 - INFO - Client: 192.168.88.95, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-21 10:07:26 - INFO - 192.168.88.95:51339 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-21 10:07:26 - INFO - Client: 192.168.88.95, Method: GET, Path: /LerEst, Body: 
+2025-05-21 10:07:35 - INFO - 192.168.88.95:51339 - "GET /LerEst HTTP/1.1" 200
+2025-05-21 10:26:48 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-21 10:26:48 - INFO - 192.168.88.172:52743 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-21 10:26:48 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-05-21 10:26:55 - INFO - 192.168.88.172:52743 - "GET /LerEst HTTP/1.1" 200
+2025-05-21 10:27:41 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-21 10:27:41 - INFO - 192.168.88.172:52746 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-21 10:27:41 - INFO - Client: 192.168.88.172, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> DESINFETANTE HOSPITALAR | A BASE DE QUATERNARIO DE AMONIO SPRAY 750ML REGISTRO ANVISA | MC1D0014</p>\n                <p><b>Saldo:</b> 5</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> LUCAS</p>\n                <p><b>Motivo ou OS:</b> REPOSIÇÃO</p>\n                <p><b>Data:</b> 2025-05-21</p>\n            "}
+2025-05-21 10:27:41 - INFO - 192.168.88.172:52746 - "POST /sendmail HTTP/1.1" 200
+2025-05-21 11:51:23 - INFO - Client: 192.168.88.95, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-21 11:51:23 - INFO - 192.168.88.95:52728 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-21 11:51:23 - INFO - Client: 192.168.88.95, Method: GET, Path: /LerEst, Body: 
+2025-05-21 11:51:32 - INFO - 192.168.88.95:52728 - "GET /LerEst HTTP/1.1" 200
+2025-05-21 11:52:32 - INFO - Client: 192.168.88.95, Method: GET, Path: /LerEst, Body: 
+2025-05-21 11:52:37 - INFO - 192.168.88.95:52739 - "GET /LerEst HTTP/1.1" 200
+2025-05-21 14:21:21 - INFO - Client: 192.168.88.181, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-21 14:21:21 - INFO - 192.168.88.181:58315 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-21 14:21:21 - INFO - Client: 192.168.88.181, Method: GET, Path: /LerEst, Body: 
+2025-05-21 14:21:28 - INFO - 192.168.88.181:58315 - "GET /LerEst HTTP/1.1" 200
+2025-05-21 14:39:32 - INFO - Client: 192.168.88.181, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-21 14:39:32 - INFO - 192.168.88.181:58522 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-21 14:39:32 - INFO - Client: 192.168.88.181, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CAMISETA | OPUS CINZA FEMININA M | MC1C0023</p>\n                <p><b>Saldo:</b> 16</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Bruna</p>\n                <p><b>Data:</b> 2025-05-21</p>\n            "}
+2025-05-21 14:39:32 - INFO - 192.168.88.181:58524 - "POST /sendmail HTTP/1.1" 200
+2025-05-21 14:53:43 - INFO - Client: 192.168.88.95, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-21 14:53:43 - INFO - 192.168.88.95:51099 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-21 14:53:43 - INFO - Client: 192.168.88.95, Method: GET, Path: /LerEst, Body: 
+2025-05-21 14:53:49 - INFO - 192.168.88.95:51099 - "GET /LerEst HTTP/1.1" 200
+2025-05-21 14:57:11 - INFO - Client: 192.168.88.95, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-21 14:57:11 - INFO - 192.168.88.95:51112 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-21 14:57:11 - INFO - Client: 192.168.88.95, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> BOTA DE SEGURANCA | TAMANHO 42 | MC1B0001</p>\n                <p><b>Saldo:</b> 2</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Larissa Valentina</p>\n                <p><b>Motivo ou OS:</b> Renovação de Epi's dos colaboradores</p>\n                <p><b>Data:</b> 2025-05-21</p>\n            "}
+2025-05-21 14:57:11 - INFO - 192.168.88.95:51114 - "POST /sendmail HTTP/1.1" 200
+2025-05-21 15:05:43 - INFO - Client: 192.168.88.95, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body: 
+2025-05-21 15:05:43 - INFO - 192.168.88.95:51228 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-21 15:05:43 - INFO - Client: 192.168.88.95, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"codItem":"MC1B0006","qtde":1,"obsReqCompra":"Renovação do Epi's dos colaboradores"}
+2025-05-21 15:05:47 - INFO - 192.168.88.95:51228 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-21 15:06:31 - INFO - Client: 192.168.88.95, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"codItem":"MC1B0007","qtde":1,"obsReqCompra":"Renovação do Epi's dos colaboradores"}
+2025-05-21 15:06:34 - INFO - 192.168.88.95:51233 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-21 15:07:16 - INFO - Client: 192.168.88.95, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"codItem":"MC1B0008","qtde":1,"obsReqCompra":"Renovação do Epi's dos colaboradores"}
+2025-05-21 15:07:19 - INFO - 192.168.88.95:51244 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-21 15:16:44 - INFO - Client: 192.168.88.67, Method: GET, Path: /test-page, Body: 
+2025-05-21 15:16:44 - INFO - 192.168.88.67:50475 - "GET /test-page HTTP/1.1" 200
+2025-05-21 15:16:44 - INFO - Client: 192.168.88.67, Method: GET, Path: /favicon.ico, Body: 
+2025-05-21 15:16:44 - INFO - 192.168.88.67:50475 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-22 08:15:55 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-05-22 08:16:02 - INFO - 192.168.88.1:11548 - "GET /LerEst HTTP/1.1" 200
+2025-05-22 08:16:02 - INFO - Client: 192.168.88.1, Method: GET, Path: /favicon.ico, Body: 
+2025-05-22 08:16:02 - INFO - 192.168.88.1:11548 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-22 08:16:09 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-22 08:16:09 - INFO - 192.168.88.1:12099 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-22 08:16:09 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-05-22 08:16:12 - INFO - 192.168.88.1:12099 - "GET /LerEst HTTP/1.1" 200
+2025-05-22 08:18:09 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-22 08:18:09 - INFO - 192.168.88.1:11710 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-22 08:18:09 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> ACUCAR | 1KG | MC1A0004</p>\n                <p><b>Saldo:</b> 15</p>\n                <p><b>Quantidade:</b> 4</p>\n                <p><b>Solicitante:</b> Danilo</p>\n                <p><b>Motivo ou OS:</b> cafe ,chá ,suco</p>\n                <p><b>Data:</b> 2025-05-22</p>\n            "}
+2025-05-22 08:18:09 - INFO - 192.168.88.1:11710 - "POST /sendmail HTTP/1.1" 200
+2025-05-22 10:18:49 - INFO - Client: 192.168.88.43, Method: GET, Path: /test-page, Body: 
+2025-05-22 10:18:49 - INFO - 192.168.88.43:59332 - "GET /test-page HTTP/1.1" 200
+2025-05-22 10:18:49 - INFO - Client: 192.168.88.43, Method: GET, Path: /favicon.ico, Body: 
+2025-05-22 10:18:49 - INFO - 192.168.88.43:59332 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-22 10:18:54 - INFO - Client: 192.168.88.43, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-22 10:18:54 - INFO - 192.168.88.43:59336 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-22 10:18:54 - INFO - Client: 192.168.88.43, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"S2ANM3HTC00017E"}
+2025-05-22 10:18:58 - INFO - 192.168.88.43:59338 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-22 11:30:34 - INFO - Client: 192.168.88.171, Method: GET, Path: /LerEst, Body: 
+2025-05-22 11:30:44 - INFO - 192.168.88.171:52590 - "GET /LerEst HTTP/1.1" 200
+2025-05-22 11:31:40 - INFO - Client: 192.168.88.171, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-22 11:31:40 - INFO - 192.168.88.171:52678 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-22 11:31:40 - INFO - Client: 192.168.88.171, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> NOTEBOOK | I5 11ªGERACAO 14/15&quot; WINDOWS 11 PRO 8GB RAM 256GB SDD COM SAIDA HDMI | MC1N0002</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Isaque Fagundes</p>\n                <p><b>Motivo ou OS:</b> Para Dyovanna Leal do RH.</p>\n                <p><b>Data:</b> 2025-05-22</p>\n            "}
+2025-05-22 11:31:40 - INFO - 192.168.88.171:52678 - "POST /sendmail HTTP/1.1" 200
+2025-05-22 11:31:49 - INFO - Client: 192.168.88.171, Method: GET, Path: /LerEst, Body: 
+2025-05-22 11:31:55 - INFO - 192.168.88.171:52688 - "GET /LerEst HTTP/1.1" 200
+2025-05-22 12:59:16 - INFO - Client: 192.168.88.181, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-22 12:59:16 - INFO - 192.168.88.181:51047 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-22 12:59:16 - INFO - Client: 192.168.88.181, Method: GET, Path: /LerEst, Body: 
+2025-05-22 12:59:22 - INFO - 192.168.88.181:51047 - "GET /LerEst HTTP/1.1" 200
+2025-05-22 12:59:55 - INFO - Client: 192.168.88.181, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-22 12:59:55 - INFO - 192.168.88.181:51062 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-22 12:59:55 - INFO - Client: 192.168.88.181, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CADERNO UNIVERSITARIO | 10 MATERIAS ESPIRAL CAPA DURA | MC1C0076</p>\n                <p><b>Saldo:</b> 5</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Para Janaina</p>\n                <p><b>Data:</b> 2025-05-22</p>\n            "}
+2025-05-22 12:59:55 - INFO - 192.168.88.181:51062 - "POST /sendmail HTTP/1.1" 200
+2025-05-22 17:13:20 - INFO - Will watch for changes in these directories: ['C:\\Users\\OPUSMANUALSERVER\\.vscode\\HelloWorld\\PYFolder\\SysServerAutomation']
+2025-05-22 17:13:20 - INFO - Uvicorn running on https://0.0.0.0:5000 (Press CTRL+C to quit)
+2025-05-22 17:13:20 - INFO - Started reloader process [9612] using StatReload
+2025-05-22 17:13:30 - INFO - Started server process [9752]
+2025-05-22 17:13:30 - INFO - Waiting for application startup.
+2025-05-22 17:13:30 - INFO - Application startup complete.
+2025-05-23 10:28:27 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-23 10:28:27 - INFO - 192.168.88.63:51426 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-23 10:28:27 - INFO - Client: 192.168.88.63, Method: GET, Path: /LerEst, Body: 
+2025-05-23 10:28:34 - INFO - 192.168.88.63:51429 - "GET /LerEst HTTP/1.1" 200
+2025-05-23 10:30:02 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-23 10:30:02 - INFO - 192.168.88.63:51483 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-23 10:30:02 - INFO - Client: 192.168.88.63, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CAMISETA | OPUS CINZA FEMININA M | MC1C0023</p>\n                <p><b>Saldo:</b> 16</p>\n                <p><b>Quantidade:</b> 3</p>\n                <p><b>Solicitante:</b> Larissa Valentina</p>\n                <p><b>Motivo ou OS:</b> Colaboradora nova</p>\n                <p><b>Data:</b> 2025-05-23</p>\n            "}
+2025-05-23 10:30:02 - INFO - 192.168.88.63:51483 - "POST /sendmail HTTP/1.1" 200
+2025-05-23 10:30:31 - INFO - Client: 192.168.88.63, Method: GET, Path: /LerEst, Body: 
+2025-05-23 10:30:38 - INFO - 192.168.88.63:51511 - "GET /LerEst HTTP/1.1" 200
+2025-05-23 10:30:59 - INFO - Client: 192.168.88.63, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CAMISETA | OPUS CINZA FEMININA M | MC1C0023</p>\n                <p><b>Saldo:</b> 16</p>\n                <p><b>Quantidade:</b> 3</p>\n                <p><b>Solicitante:</b> Larissa Valentina</p>\n                <p><b>Motivo ou OS:</b> Colaboradora nova</p>\n                <p><b>Data:</b> 2025-05-23</p>\n            "}
+2025-05-23 10:30:59 - INFO - 192.168.88.63:51523 - "POST /sendmail HTTP/1.1" 200
+2025-05-23 10:31:01 - INFO - Client: 192.168.88.63, Method: GET, Path: /LerEst, Body: 
+2025-05-23 10:37:11 - INFO - Client: 192.168.88.63, Method: GET, Path: /LerEst, Body: 
+2025-05-23 10:37:18 - INFO - 192.168.88.63:51581 - "GET /LerEst HTTP/1.1" 200
+2025-05-23 10:37:52 - INFO - Client: 192.168.88.63, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> APARELHO CELULAR | 64GB ROM 4GB DE RAM DUAL CHIP USB-C | MC1A0030</p>\n                <p><b>Saldo:</b> 2</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Larissa Valentina</p>\n                <p><b>Motivo ou OS:</b> Colaboradora nova</p>\n                <p><b>Data:</b> 2025-05-23</p>\n            "}
+2025-05-23 10:37:52 - INFO - 192.168.88.63:51584 - "POST /sendmail HTTP/1.1" 200
+2025-05-23 10:37:54 - INFO - Client: 192.168.88.63, Method: GET, Path: /LerEst, Body: 
+2025-05-23 10:37:58 - INFO - 192.168.88.63:51584 - "GET /LerEst HTTP/1.1" 200
+2025-05-23 16:00:29 - WARNING - StatReload detected changes in 'arq_req_fuctions.py'. Reloading...
+2025-05-23 16:00:29 - INFO - Shutting down
+2025-05-23 16:00:29 - INFO - Waiting for application shutdown.
+2025-05-23 16:00:29 - INFO - Application shutdown complete.
+2025-05-23 16:00:29 - INFO - Finished server process [9752]
+2025-05-23 16:00:44 - INFO - Started server process [9532]
+2025-05-23 16:00:44 - INFO - Waiting for application startup.
+2025-05-23 16:00:44 - INFO - Application startup complete.
+2025-05-23 16:31:17 - INFO - Client: 192.168.88.31, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body: 
+2025-05-23 16:31:17 - INFO - 192.168.88.31:55479 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-23 16:31:17 - INFO - Client: 192.168.88.31, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Teste API Isaque","ItensReqCompra":[{"codItem":"MC1C0001","qtde":1},{"codItem":"MC1S0002","qtde":1}]}
+2025-05-23 16:31:17 - INFO - 192.168.88.31:55479 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-26 07:44:31 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body: 
+2025-05-26 07:44:31 - INFO - 192.168.88.63:50342 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-26 07:44:31 - INFO - Client: 192.168.88.63, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina - Carregador para a colaboradora nova, que chega hoje 26/05/2025","ItensReqCompra":[{"codItem":"MC1C0141","qtde":1}]}
+2025-05-26 07:44:31 - INFO - 192.168.88.63:50342 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-05-26 12:09:10 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-26 12:09:10 - INFO - 192.168.88.63:53174 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-26 12:09:10 - INFO - Client: 192.168.88.63, Method: GET, Path: /LerEst, Body: 
+2025-05-26 12:09:21 - INFO - 192.168.88.63:53177 - "GET /LerEst HTTP/1.1" 200
+2025-05-26 12:09:48 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-26 12:09:48 - INFO - 192.168.88.63:53180 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-26 12:09:48 - INFO - Client: 192.168.88.63, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CABO | CARREGADOR KAIDI 3 EM 1 LIGHTNING USB-C E MICRO-USB COR PRETO | MC1C0107</p>\n                <p><b>Saldo:</b> 3</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Larissa Valentina</p>\n                <p><b>Motivo ou OS:</b> Colaboradora nova</p>\n                <p><b>Data:</b> 2025-05-26</p>\n            "}
+2025-05-26 12:09:48 - INFO - 192.168.88.63:53180 - "POST /sendmail HTTP/1.1" 200
+2025-05-26 13:37:17 - INFO - Client: 192.168.88.31, Method: GET, Path: /LerEst, Body: 
+2025-05-26 13:37:23 - INFO - 192.168.88.31:53217 - "GET /LerEst HTTP/1.1" 200
+2025-05-26 13:39:47 - INFO - Client: 192.168.88.31, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-26 13:39:47 - INFO - 192.168.88.31:53319 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-26 13:39:47 - INFO - Client: 192.168.88.31, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> MONITOR | 21,5/22/23,8/24 POLEGADAS 1920X1080 60HZ VGA E HDMI | MC1M0024</p>\n                <p><b>Saldo:</b> 3</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> Isaque Fagundes</p>\n                <p><b>Motivo ou OS:</b> Solicito os dois monitores, um para Kamilly e outro para ser enviado para Minas Gerais, conforme pré-solicitador por Bruno.</p>\n                <p><b>Data:</b> 2025-05-26</p>\n            "}
+2025-05-26 13:39:47 - INFO - 192.168.88.31:53319 - "POST /sendmail HTTP/1.1" 200
+2025-05-26 13:40:48 - INFO - Client: 192.168.88.31, Method: GET, Path: /LerEst, Body: 
+2025-05-26 13:40:54 - INFO - 192.168.88.31:53346 - "GET /LerEst HTTP/1.1" 200
+2025-05-26 13:42:02 - INFO - Client: 192.168.88.31, Method: GET, Path: /LerEst, Body: 
+2025-05-26 13:42:09 - INFO - 192.168.88.31:53371 - "GET /LerEst HTTP/1.1" 200
+2025-05-26 13:57:16 - INFO - Client: 192.168.88.172, Method: GET, Path: /test-page, Body: 
+2025-05-26 13:57:16 - INFO - 192.168.88.172:54145 - "GET /test-page HTTP/1.1" 200
+2025-05-26 13:57:16 - INFO - Client: 192.168.88.172, Method: GET, Path: /favicon.ico, Body: 
+2025-05-26 13:57:16 - INFO - 192.168.88.172:54145 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-26 13:57:26 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-26 13:57:26 - INFO - 192.168.88.172:54150 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-26 13:57:26 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-05-26 13:57:31 - INFO - 192.168.88.172:54150 - "GET /LerEst HTTP/1.1" 200
+2025-05-26 14:05:47 - INFO - Client: 192.168.88.62, Method: GET, Path: /test-page, Body: 
+2025-05-26 14:05:47 - INFO - 192.168.88.62:65521 - "GET /test-page HTTP/1.1" 200
+2025-05-26 14:05:47 - INFO - Client: 192.168.88.62, Method: GET, Path: /favicon.ico, Body: 
+2025-05-26 14:05:47 - INFO - 192.168.88.62:65521 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-26 14:05:55 - INFO - Client: 192.168.88.62, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-26 14:05:55 - INFO - 192.168.88.62:65530 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-26 14:05:55 - INFO - Client: 192.168.88.62, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"2250241141"}
+2025-05-26 14:05:58 - INFO - 192.168.88.62:65530 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-26 14:30:48 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-26 14:30:48 - INFO - 192.168.88.1:19275 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-26 14:30:48 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"1225871WX1"}
+2025-05-26 14:30:52 - INFO - 192.168.88.1:19275 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-26 14:33:50 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"124304WX5"}
+2025-05-26 14:33:53 - INFO - 192.168.88.1:20779 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-26 16:28:36 - INFO - Client: 192.168.88.62, Method: OPTIONS, Path: /NotaFiscal, Body: 
+2025-05-26 16:28:36 - INFO - 192.168.88.62:50859 - "OPTIONS /NotaFiscal HTTP/1.1" 200
+2025-05-26 16:28:37 - INFO - Client: 192.168.88.62, Method: POST, Path: /NotaFiscal, Body: {"numNF":"4090"}
+2025-05-26 16:28:39 - INFO - 192.168.88.62:50859 - "POST /NotaFiscal HTTP/1.1" 200
+2025-05-26 16:29:52 - INFO - Client: 192.168.88.62, Method: POST, Path: /NotaFiscal, Body: {"numNF":"4088"}
+2025-05-26 16:29:54 - INFO - 192.168.88.62:50914 - "POST /NotaFiscal HTTP/1.1" 200
+2025-05-26 16:57:04 - INFO - Client: 192.168.88.62, Method: OPTIONS, Path: /NotaFiscal, Body: 
+2025-05-26 16:57:04 - INFO - 192.168.88.62:51190 - "OPTIONS /NotaFiscal HTTP/1.1" 200
+2025-05-26 16:57:05 - INFO - Client: 192.168.88.62, Method: POST, Path: /NotaFiscal, Body: {"numNF":"4093"}
+2025-05-26 16:57:08 - INFO - 192.168.88.62:51190 - "POST /NotaFiscal HTTP/1.1" 200
+2025-05-26 17:07:20 - INFO - Client: 192.168.88.1, Method: GET, Path: /test-page, Body: 
+2025-05-26 17:07:20 - INFO - 192.168.88.1:22939 - "GET /test-page HTTP/1.1" 200
+2025-05-26 17:07:20 - INFO - Client: 192.168.88.1, Method: GET, Path: /favicon.ico, Body: 
+2025-05-26 17:07:20 - INFO - 192.168.88.1:22939 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-26 17:07:28 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-26 17:07:28 - INFO - 192.168.88.1:23246 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-26 17:07:28 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-05-26 17:07:36 - INFO - 192.168.88.1:23246 - "GET /LerEst HTTP/1.1" 200
+2025-05-27 09:43:00 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-27 09:43:00 - INFO - 192.168.88.1:48474 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-27 09:43:00 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-05-27 09:43:09 - INFO - 192.168.88.1:48474 - "GET /LerEst HTTP/1.1" 200
+2025-05-27 09:43:42 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-27 09:43:42 - INFO - 192.168.88.1:50153 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-27 09:43:42 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> SAPOLIO | CREMOSO FRASCO 300ML | MC1S0001</p>\n                <p><b>Saldo:</b> 11</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Danilo</p>\n                <p><b>Motivo ou OS:</b> 202500640</p>\n                <p><b>Data:</b> 2025-05-27</p>\n            "}
+2025-05-27 09:43:42 - INFO - 192.168.88.1:50153 - "POST /sendmail HTTP/1.1" 200
+2025-05-27 09:44:36 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-05-27 09:44:42 - INFO - 192.168.88.1:49691 - "GET /LerEst HTTP/1.1" 200
+2025-05-27 09:45:03 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> ESPONJA MULTIUSO | DUPLAFACE 100x71mm PCT C/10UN | MC1E0001</p>\n                <p><b>Saldo:</b> 3</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Danilo</p>\n                <p><b>Motivo ou OS:</b> 202500640</p>\n                <p><b>Data:</b> 2025-05-27</p>\n            "}
+2025-05-27 09:45:04 - INFO - 192.168.88.1:50095 - "POST /sendmail HTTP/1.1" 200
+2025-05-27 09:45:07 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-05-27 09:45:10 - INFO - 192.168.88.1:50095 - "GET /LerEst HTTP/1.1" 200
+2025-05-27 11:34:18 - INFO - Client: 192.168.88.254, Method: GET, Path: /test-page, Body: 
+2025-05-27 11:34:18 - INFO - 192.168.88.254:52000 - "GET /test-page HTTP/1.1" 200
+2025-05-27 11:34:18 - INFO - Client: 192.168.88.254, Method: GET, Path: /favicon.ico, Body: 
+2025-05-27 11:34:18 - INFO - 192.168.88.254:52000 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-27 11:34:44 - INFO - Client: 192.168.88.254, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-27 11:34:44 - INFO - 192.168.88.254:52033 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-27 11:34:44 - INFO - Client: 192.168.88.254, Method: GET, Path: /LerEst, Body: 
+2025-05-27 11:34:55 - INFO - 192.168.88.254:52036 - "GET /LerEst HTTP/1.1" 200
+2025-05-27 11:36:04 - INFO - Client: 192.168.88.254, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-27 11:36:04 - INFO - 192.168.88.254:52042 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-27 11:36:04 - INFO - Client: 192.168.88.254, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> MONITOR | 21,5/22/23,8/24 POLEGADAS 1920X1080 60HZ VGA E HDMI | MC1M0024</p>\n                <p><b>Saldo:</b> 2</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Bruno</p>\n                <p><b>Motivo ou OS:</b> Para envio a três Corações</p>\n                <p><b>Data:</b> 2025-05-27</p>\n            "}
+2025-05-27 11:36:04 - INFO - 192.168.88.254:52042 - "POST /sendmail HTTP/1.1" 200
+2025-05-27 16:07:08 - INFO - Client: 192.168.88.62, Method: OPTIONS, Path: /NotaFiscal, Body: 
+2025-05-27 16:07:08 - INFO - 192.168.88.62:57247 - "OPTIONS /NotaFiscal HTTP/1.1" 200
+2025-05-27 16:07:08 - INFO - Client: 192.168.88.62, Method: POST, Path: /NotaFiscal, Body: {"numNF":"4100"}
+2025-05-27 16:07:10 - INFO - 192.168.88.62:57247 - "POST /NotaFiscal HTTP/1.1" 200
+2025-05-28 08:15:42 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-28 08:15:42 - INFO - 192.168.88.172:60780 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-28 08:15:43 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-05-28 08:15:51 - INFO - 192.168.88.172:60783 - "GET /LerEst HTTP/1.1" 200
+2025-05-28 08:16:22 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-28 08:16:22 - INFO - 192.168.88.172:60812 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-28 08:16:22 - INFO - Client: 192.168.88.172, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> BATERIA | ALCALINA 9V | MC1B0024</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> ERIC</p>\n                <p><b>Motivo ou OS:</b> REPOSIÇÃO</p>\n                <p><b>Data:</b> 2025-05-28</p>\n            "}
+2025-05-28 08:16:22 - INFO - 192.168.88.172:60812 - "POST /sendmail HTTP/1.1" 200
+2025-05-28 09:05:37 - INFO - Client: 192.168.88.1, Method: GET, Path: /test-page, Body: 
+2025-05-28 09:05:37 - INFO - 192.168.88.1:13680 - "GET /test-page HTTP/1.1" 200
+2025-05-28 09:05:38 - INFO - Client: 192.168.88.1, Method: GET, Path: /favicon.ico, Body: 
+2025-05-28 09:05:38 - INFO - 192.168.88.1:13680 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-28 09:05:43 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-28 09:05:43 - INFO - 192.168.88.1:13509 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-28 09:05:43 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-05-28 09:05:55 - INFO - 192.168.88.1:13509 - "GET /LerEst HTTP/1.1" 200
+2025-05-28 09:06:25 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-28 09:06:25 - INFO - 192.168.88.1:13527 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-28 09:06:25 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CAFE | 500G | MC1C0003</p>\n                <p><b>Saldo:</b> 10</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> Renan</p>\n                <p><b>Motivo ou OS:</b> Vicente Martins</p>\n                <p><b>Data:</b> 2025-05-28</p>\n            "}
+2025-05-28 09:06:25 - INFO - 192.168.88.1:13527 - "POST /sendmail HTTP/1.1" 200
+2025-05-28 09:07:35 - INFO - Client: 192.168.88.31, Method: GET, Path: /LerEst, Body: 
+2025-05-28 09:07:40 - INFO - 192.168.88.31:58253 - "GET /LerEst HTTP/1.1" 200
+2025-05-28 10:54:55 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-28 10:54:55 - INFO - 192.168.88.1:15219 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-28 10:54:55 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"81026016"}
+2025-05-28 10:54:59 - INFO - 192.168.88.1:15219 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-28 10:56:22 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"81227011"}
+2025-05-28 10:56:23 - INFO - 192.168.88.1:15870 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-28 14:26:28 - INFO - Client: 192.168.88.250, Method: GET, Path: /test-page, Body: 
+2025-05-28 14:26:28 - INFO - 192.168.88.250:51638 - "GET /test-page HTTP/1.1" 200
+2025-05-28 14:26:28 - INFO - Client: 192.168.88.250, Method: GET, Path: /favicon.ico, Body: 
+2025-05-28 14:26:28 - INFO - 192.168.88.250:51638 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-28 14:26:31 - INFO - Client: 192.168.88.250, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-28 14:26:31 - INFO - 192.168.88.250:51642 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-28 14:26:31 - INFO - Client: 192.168.88.250, Method: GET, Path: /LerEst, Body: 
+2025-05-28 14:26:38 - INFO - 192.168.88.250:51642 - "GET /LerEst HTTP/1.1" 200
+2025-05-28 14:27:47 - INFO - Client: 192.168.88.250, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-28 14:27:47 - INFO - 192.168.88.250:51647 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-28 14:27:47 - INFO - Client: 192.168.88.250, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> ADAPTADOR HEADSET PARA FONE | 2 P2 MACHO X 1 P3 FEMEA | MC1A0029</p>\n                <p><b>Saldo:</b> 2</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Valmir Maglhães</p>\n                <p><b>Motivo ou OS:</b> Para tentar utilizar o fone multilaser.</p>\n                <p><b>Data:</b> 2025-05-28</p>\n            "}
+2025-05-28 14:27:47 - INFO - 192.168.88.250:51647 - "POST /sendmail HTTP/1.1" 200
+2025-05-28 14:44:45 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-28 14:44:45 - INFO - 192.168.88.1:20564 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-28 14:44:45 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"304218"}
+2025-05-28 14:44:48 - INFO - 192.168.88.1:20564 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-29 09:08:19 - INFO - Client: 192.168.88.118, Method: GET, Path: /test-page, Body: 
+2025-05-29 09:08:19 - INFO - 192.168.88.118:49272 - "GET /test-page HTTP/1.1" 200
+2025-05-29 09:08:19 - INFO - Client: 192.168.88.118, Method: GET, Path: /favicon.ico, Body: 
+2025-05-29 09:08:19 - INFO - 192.168.88.118:49272 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-29 09:08:33 - INFO - Client: 192.168.88.118, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-29 09:08:33 - INFO - 192.168.88.118:49291 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-29 09:08:33 - INFO - Client: 192.168.88.118, Method: GET, Path: /LerEst, Body: 
+2025-05-29 09:08:41 - INFO - 192.168.88.118:49294 - "GET /LerEst HTTP/1.1" 200
+2025-05-29 09:16:21 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-29 09:16:21 - INFO - 192.168.88.172:64535 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-29 09:16:21 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-05-29 09:16:26 - INFO - 192.168.88.172:64535 - "GET /LerEst HTTP/1.1" 200
+2025-05-29 09:17:15 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-29 09:17:15 - INFO - 192.168.88.172:64544 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-29 09:17:15 - INFO - Client: 192.168.88.172, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> LUVA PARA PROCEDIMENTO NAO CIRURGICO | NITRILICA AZUL SEM PO TAMANHO XG C/100UN | MC1L0008</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> LUCAS</p>\n                <p><b>Motivo ou OS:</b> REPOSIÇÃO</p>\n                <p><b>Data:</b> 2025-05-29</p>\n            "}
+2025-05-29 09:17:15 - INFO - 192.168.88.172:64545 - "POST /sendmail HTTP/1.1" 200
+2025-05-29 09:17:17 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-05-29 09:17:21 - INFO - 192.168.88.172:64545 - "GET /LerEst HTTP/1.1" 200
+2025-05-29 09:17:46 - INFO - Client: 192.168.88.172, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> LUVA PARA PROCEDIMENTO NAO CIRURGICO | NITRILICA AZUL SEM PO TAMANHO G C/100UN | MC1L0006</p>\n                <p><b>Saldo:</b> 26</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> LUCAS</p>\n                <p><b>Motivo ou OS:</b> reposição</p>\n                <p><b>Data:</b> 2025-05-29</p>\n            "}
+2025-05-29 09:17:46 - INFO - 192.168.88.172:64554 - "POST /sendmail HTTP/1.1" 200
+2025-05-29 11:38:34 - INFO - Will watch for changes in these directories: ['C:\\Users\\OPUSMANUALSERVER\\.vscode\\HelloWorld\\PYFolder\\SysServerAutomation']
+2025-05-29 11:38:34 - INFO - Uvicorn running on https://0.0.0.0:5000 (Press CTRL+C to quit)
+2025-05-29 11:38:34 - INFO - Started reloader process [4036] using StatReload
+2025-05-29 11:38:42 - INFO - Started server process [7928]
+2025-05-29 11:38:42 - INFO - Waiting for application startup.
+2025-05-29 11:38:42 - INFO - Application startup complete.
+2025-05-29 15:29:56 - INFO - Client: 192.168.88.1, Method: GET, Path: /test-page, Body: 
+2025-05-29 15:29:56 - INFO - 192.168.88.1:33469 - "GET /test-page HTTP/1.1" 200
+2025-05-29 15:29:56 - INFO - Client: 192.168.88.1, Method: GET, Path: /favicon.ico, Body: 
+2025-05-29 15:29:56 - INFO - 192.168.88.1:33469 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-29 15:30:03 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-29 15:30:03 - INFO - 192.168.88.1:33482 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-29 15:30:03 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"0322NV"}
+2025-05-29 15:30:06 - INFO - 192.168.88.1:33482 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-29 15:31:46 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"B0RRXQ"}
+2025-05-29 15:31:48 - INFO - 192.168.88.1:35422 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-29 15:33:31 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"B0P2VC"}
+2025-05-29 15:33:33 - INFO - 192.168.88.1:37438 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-29 15:34:42 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"US81320493"}
+2025-05-29 15:34:44 - INFO - 192.168.88.1:39216 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-29 15:58:55 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-29 15:58:55 - INFO - 192.168.88.1:58489 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-29 15:58:55 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-05-29 15:59:01 - INFO - 192.168.88.1:58489 - "GET /LerEst HTTP/1.1" 200
+2025-05-29 15:59:30 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-29 15:59:30 - INFO - 192.168.88.1:58835 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-29 15:59:30 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> PLASTICO | BOLHA 1.30 X 100 MTS ROLO TRANSPARENTE | MC1P0019</p>\n                <p><b>Saldo:</b> 7</p>\n                <p><b>Quantidade:</b> 3</p>\n                <p><b>Solicitante:</b> Italo</p>\n                <p><b>Motivo ou OS:</b> Vicente Martins</p>\n                <p><b>Data:</b> 2025-05-29</p>\n            "}
+2025-05-29 15:59:31 - INFO - 192.168.88.1:58835 - "POST /sendmail HTTP/1.1" 200
+2025-05-29 15:59:32 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-05-29 15:59:35 - INFO - 192.168.88.1:58835 - "GET /LerEst HTTP/1.1" 200
+2025-05-29 16:00:24 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> PLASTICO | FILME STRETCH 500MM ROLO MINIMO 4KG 25 MICRAS TRANSPARENTE | MC1P0020</p>\n                <p><b>Saldo:</b> 3</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> Italo</p>\n                <p><b>Motivo ou OS:</b> Vicente Martins</p>\n                <p><b>Data:</b> 2025-05-29</p>\n            "}
+2025-05-29 16:00:24 - INFO - 192.168.88.1:59518 - "POST /sendmail HTTP/1.1" 200
+2025-05-29 16:23:55 - INFO - Client: 192.168.88.47, Method: GET, Path: /test-page, Body: 
+2025-05-29 16:23:55 - INFO - 192.168.88.47:61351 - "GET /test-page HTTP/1.1" 200
+2025-05-29 16:23:55 - INFO - Client: 192.168.88.47, Method: GET, Path: /favicon.ico, Body: 
+2025-05-29 16:23:56 - INFO - 192.168.88.47:61351 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-29 16:24:18 - INFO - Client: 192.168.88.47, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-29 16:24:18 - INFO - 192.168.88.47:61364 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-29 16:24:18 - INFO - Client: 192.168.88.47, Method: GET, Path: /LerEst, Body: 
+2025-05-29 16:24:25 - INFO - 192.168.88.47:61367 - "GET /LerEst HTTP/1.1" 200
+2025-05-29 16:25:11 - INFO - Client: 192.168.88.47, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-29 16:25:11 - INFO - 192.168.88.47:61373 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-29 16:25:11 - INFO - Client: 192.168.88.47, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CAMISETA | OPUS CINZA FEMININA G | MC1C0022</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Troca para a Bruna</p>\n                <p><b>Data:</b> 2025-05-29</p>\n            "}
+2025-05-29 16:25:11 - INFO - 192.168.88.47:61373 - "POST /sendmail HTTP/1.1" 200
+2025-05-30 08:31:48 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-30 08:31:48 - INFO - 192.168.88.172:60272 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-30 08:31:48 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-05-30 08:31:51 - INFO - 192.168.88.172:60272 - "GET /LerEst HTTP/1.1" 200
+2025-05-30 08:32:44 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-30 08:32:44 - INFO - 192.168.88.172:60288 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-30 08:32:44 - INFO - Client: 192.168.88.172, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> TECLADO ALFANUMERICO LOGIC F | CP1T0009</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> LUCAS</p>\n                <p><b>Motivo ou OS:</b> reposição</p>\n                <p><b>Data:</b> 2025-05-30</p>\n            "}
+2025-05-30 08:32:44 - INFO - 192.168.88.172:60288 - "POST /sendmail HTTP/1.1" 200
+2025-05-30 08:55:48 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-30 08:55:48 - INFO - 192.168.88.1:27481 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-30 08:55:48 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-05-30 08:55:55 - INFO - 192.168.88.1:27481 - "GET /LerEst HTTP/1.1" 200
+2025-05-30 08:56:59 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-30 08:56:59 - INFO - 192.168.88.1:27926 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-30 08:56:59 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> PAPEL | TOALHA INTERFOLHA PCT C/1000FOLHAS 20x20cm | MC1P0005</p>\n                <p><b>Saldo:</b> 14</p>\n                <p><b>Quantidade:</b> 3</p>\n                <p><b>Solicitante:</b> GIOVANNA</p>\n                <p><b>Motivo ou OS:</b> ACABOU - VICENTE MARTINS</p>\n                <p><b>Data:</b> 2025-05-30</p>\n            "}
+2025-05-30 08:56:59 - INFO - 192.168.88.1:27926 - "POST /sendmail HTTP/1.1" 200
+2025-05-30 08:57:23 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-30 08:57:23 - INFO - 192.168.88.172:60928 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-30 08:57:23 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-05-30 08:57:28 - INFO - 192.168.88.172:60928 - "GET /LerEst HTTP/1.1" 200
+2025-05-30 08:59:15 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-30 08:59:15 - INFO - 192.168.88.172:60946 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-30 08:59:15 - INFO - Client: 192.168.88.172, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> VIDEO PRINTER | UP-X898MD (SONY) 9138012103916 | 9138012103916-EQ2127</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> MARCELO</p>\n                <p><b>Motivo ou OS:</b> 202500661</p>\n                <p><b>Data:</b> 2025-05-30</p>\n            "}
+2025-05-30 08:59:15 - INFO - 192.168.88.172:60946 - "POST /sendmail HTTP/1.1" 200
+2025-05-30 09:07:20 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-05-30 09:07:25 - INFO - 192.168.88.172:61055 - "GET /LerEst HTTP/1.1" 200
+2025-05-30 09:07:52 - INFO - Client: 192.168.88.172, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> VIDEO PRINTER | UP-D897 (SONY) 134645 | 134645-EQ1692</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> MARCELO</p>\n                <p><b>Motivo ou OS:</b> 202500661</p>\n                <p><b>Data:</b> 2025-05-30</p>\n            "}
+2025-05-30 09:07:52 - INFO - 192.168.88.172:61058 - "POST /sendmail HTTP/1.1" 200
+2025-05-30 09:46:42 - INFO - Client: 192.168.88.31, Method: GET, Path: /LerEst, Body: 
+2025-05-30 09:46:49 - INFO - 192.168.88.31:63940 - "GET /LerEst HTTP/1.1" 200
+2025-05-30 09:47:52 - INFO - Client: 192.168.88.31, Method: OPTIONS, Path: /sendmail, Body: 
+2025-05-30 09:47:52 - INFO - 192.168.88.31:63956 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-05-30 09:47:52 - INFO - Client: 192.168.88.31, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> PILHA | ALCALINA TIPO AA 1,5V | MC1P0008</p>\n                <p><b>Saldo:</b> 38</p>\n                <p><b>Quantidade:</b> 4</p>\n                <p><b>Solicitante:</b> Isaque Fagundes</p>\n                <p><b>Motivo ou OS:</b> Para mouse e teclado.</p>\n                <p><b>Data:</b> 2025-05-30</p>\n            "}
+2025-05-30 09:47:52 - INFO - 192.168.88.31:63956 - "POST /sendmail HTTP/1.1" 200
+2025-05-30 09:47:55 - INFO - Client: 192.168.88.31, Method: GET, Path: /LerEst, Body: 
+2025-05-30 09:48:02 - INFO - 192.168.88.31:63956 - "GET /LerEst HTTP/1.1" 200
+2025-05-30 10:03:46 - INFO - Client: 192.168.88.62, Method: OPTIONS, Path: /NotaFiscal, Body: 
+2025-05-30 10:03:46 - INFO - 192.168.88.62:59376 - "OPTIONS /NotaFiscal HTTP/1.1" 200
+2025-05-30 10:03:46 - INFO - Client: 192.168.88.62, Method: POST, Path: /NotaFiscal, Body: {"numNF":"4110"}
+2025-05-30 10:03:48 - INFO - 192.168.88.62:59378 - "POST /NotaFiscal HTTP/1.1" 200
+2025-05-30 10:44:54 - INFO - Client: 192.168.88.62, Method: OPTIONS, Path: /NotaFiscal, Body: 
+2025-05-30 10:44:54 - INFO - 192.168.88.62:60203 - "OPTIONS /NotaFiscal HTTP/1.1" 200
+2025-05-30 10:44:54 - INFO - Client: 192.168.88.62, Method: POST, Path: /NotaFiscal, Body: {"numNF":"4111"}
+2025-05-30 10:44:56 - INFO - 192.168.88.62:60203 - "POST /NotaFiscal HTTP/1.1" 200
+2025-05-30 10:53:23 - INFO - Client: 192.168.88.62, Method: POST, Path: /NotaFiscal, Body: {"numNF":"4112"}
+2025-05-30 10:53:25 - INFO - 192.168.88.62:60335 - "POST /NotaFiscal HTTP/1.1" 200
+2025-05-30 14:17:08 - INFO - Client: 192.168.88.156, Method: GET, Path: /test-page, Body: 
+2025-05-30 14:17:08 - INFO - 192.168.88.156:65081 - "GET /test-page HTTP/1.1" 200
+2025-05-30 14:17:08 - INFO - Client: 192.168.88.156, Method: GET, Path: /favicon.ico, Body: 
+2025-05-30 14:17:08 - INFO - 192.168.88.156:65081 - "GET /favicon.ico HTTP/1.1" 404
+2025-05-30 14:17:10 - INFO - Client: 192.168.88.156, Method: OPTIONS, Path: /LerEst, Body: 
+2025-05-30 14:17:10 - INFO - 192.168.88.156:65085 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-05-30 14:17:10 - INFO - Client: 192.168.88.156, Method: GET, Path: /LerEst, Body: 
+2025-05-30 14:17:19 - INFO - 192.168.88.156:65085 - "GET /LerEst HTTP/1.1" 200
+2025-05-30 16:03:09 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-05-30 16:03:09 - INFO - 192.168.88.1:36808 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-05-30 16:03:09 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"0170540424"}
+2025-05-30 16:03:12 - INFO - 192.168.88.1:36808 - "POST /neovero-receiver HTTP/1.1" 200
+2025-05-30 16:12:14 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"2184"}
+2025-05-30 16:12:18 - INFO - 192.168.88.1:41035 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-02 12:01:42 - INFO - Shutting down
+2025-06-02 12:01:42 - INFO - Waiting for application shutdown.
+2025-06-02 12:01:42 - INFO - Application shutdown complete.
+2025-06-02 12:01:42 - INFO - Finished server process [7928]
+2025-06-02 12:01:42 - INFO - Stopping reloader process [4036]
+2025-06-02 12:03:08 - INFO - Will watch for changes in these directories: ['C:\\Users\\OPUSMANUALSERVER\\.vscode\\HelloWorld\\PYFolder\\SysServerAutomation']
+2025-06-02 12:03:08 - INFO - Uvicorn running on https://0.0.0.0:5000 (Press CTRL+C to quit)
+2025-06-02 12:03:08 - INFO - Started reloader process [4244] using StatReload
+2025-06-02 12:03:16 - INFO - Started server process [7516]
+2025-06-02 12:03:16 - INFO - Waiting for application startup.
+2025-06-02 12:03:16 - INFO - Application startup complete.
+2025-06-02 12:05:53 - INFO - Client: 192.168.88.31, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body: 
+2025-06-02 12:05:53 - INFO - 192.168.88.31:56773 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-02 12:05:53 - INFO - Client: 192.168.88.31, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Teste de funcionamento da API.","ItensReqCompra":[{"codItem":"MC1S0001","qtde":2},{"codItem":"MC1A0001","qtde":3},{"codItem":"MC1P0008","qtde":2}]}
+2025-06-02 12:05:59 - INFO - 192.168.88.31:56773 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-02 12:08:37 - WARNING - StatReload detected changes in 'arq_req_fuctions.py'. Reloading...
+2025-06-02 12:08:45 - INFO - Shutting down
+2025-06-02 12:08:45 - INFO - Waiting for application shutdown.
+2025-06-02 12:08:45 - INFO - Application shutdown complete.
+2025-06-02 12:08:45 - INFO - Finished server process [7516]
+2025-06-02 12:08:48 - INFO - Started server process [5580]
+2025-06-02 12:08:48 - INFO - Waiting for application startup.
+2025-06-02 12:08:48 - INFO - Application startup complete.
+2025-06-02 12:09:57 - INFO - Client: 192.168.88.31, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"TESTE API MULTIPLOS ITENS.","ItensReqCompra":[{"codItem":"MC1S0001","qtde":2},{"codItem":"MC1A0001","qtde":3},{"codItem":"MC1P0008","qtde":2}]}
+2025-06-02 12:10:06 - INFO - 192.168.88.31:56922 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-02 12:33:59 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-06-02 12:33:59 - INFO - 192.168.88.1:30648 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-06-02 12:33:59 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"501112"}
+2025-06-02 12:34:03 - INFO - 192.168.88.1:30648 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-02 12:34:55 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"501115"}
+2025-06-02 12:34:58 - INFO - 192.168.88.1:29838 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-02 12:35:51 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"501116"}
+2025-06-02 12:35:53 - INFO - 192.168.88.1:30970 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-02 12:43:11 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"501116"}
+2025-06-02 12:43:13 - INFO - 192.168.88.1:35908 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-02 12:45:05 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-06-02 12:45:05 - INFO - 192.168.88.1:36997 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-06-02 12:45:05 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"03DX22"}
+2025-06-02 12:45:08 - INFO - 192.168.88.1:36997 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-02 13:38:33 - INFO - Client: 192.168.88.83, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-02 13:38:33 - INFO - 192.168.88.83:65002 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-02 13:38:33 - INFO - Client: 192.168.88.83, Method: GET, Path: /LerEst, Body: 
+2025-06-02 13:38:42 - INFO - 192.168.88.83:65002 - "GET /LerEst HTTP/1.1" 200
+2025-06-02 13:56:55 - INFO - Client: 192.168.88.83, Method: OPTIONS, Path: /sendmail, Body: 
+2025-06-02 13:56:55 - INFO - 192.168.88.83:65498 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-02 13:56:55 - INFO - Client: 192.168.88.83, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> TONER | 128A CE320A BLACK (HP) PARA CM1415 | MC1T0028</p>\n                <p><b>Saldo:</b> 2</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Diane Ferreira</p>\n                <p><b>Motivo ou OS:</b> Impressora Colorida HP   CM1415 - Qualidade</p>\n                <p><b>Data:</b> 2025-06-02</p>\n            "}
+2025-06-02 13:56:55 - INFO - 192.168.88.83:65498 - "POST /sendmail HTTP/1.1" 200
+2025-06-02 13:57:03 - INFO - Client: 192.168.88.83, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-02 13:57:03 - INFO - 192.168.88.83:65507 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-02 13:57:03 - INFO - Client: 192.168.88.83, Method: GET, Path: /LerEst, Body: 
+2025-06-02 13:57:09 - INFO - 192.168.88.83:65507 - "GET /LerEst HTTP/1.1" 200
+2025-06-02 13:57:29 - INFO - Client: 192.168.88.83, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> TONER | 128A CE321A CYAN (HP) PARA CM1415 | MC1T0029</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 01</p>\n                <p><b>Solicitante:</b> Diane Ferreira</p>\n                <p><b>Motivo ou OS:</b> Impressora Colorida HP   CM1415 - Qualidade</p>\n                <p><b>Data:</b> 2025-06-02</p>\n            "}
+2025-06-02 13:57:29 - INFO - 192.168.88.83:65523 - "POST /sendmail HTTP/1.1" 200
+2025-06-02 13:57:30 - INFO - Client: 192.168.88.83, Method: GET, Path: /LerEst, Body: 
+2025-06-02 13:57:33 - INFO - 192.168.88.83:65523 - "GET /LerEst HTTP/1.1" 200
+2025-06-02 13:57:47 - INFO - Client: 192.168.88.83, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> TONER | 128A CE322A YELLOW (HP) PARA CM1415 | MC1T0030</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 01</p>\n                <p><b>Solicitante:</b> Diane Ferreira</p>\n                <p><b>Motivo ou OS:</b> Impressora Colorida HP   CM1415 - Qualidade</p>\n                <p><b>Data:</b> 2025-06-02</p>\n            "}
+2025-06-02 13:57:47 - INFO - 192.168.88.83:65531 - "POST /sendmail HTTP/1.1" 200
+2025-06-02 13:57:48 - INFO - Client: 192.168.88.83, Method: GET, Path: /LerEst, Body: 
+2025-06-02 13:57:51 - INFO - 192.168.88.83:65531 - "GET /LerEst HTTP/1.1" 200
+2025-06-02 13:58:05 - INFO - Client: 192.168.88.83, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> TONER | 128A CE323A MAGENTA (HP) PARA CM1415 | MC1T0031</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 01</p>\n                <p><b>Solicitante:</b> Diane Ferreira</p>\n                <p><b>Motivo ou OS:</b> Impressora Colorida HP   CM1415 - Qualidade</p>\n                <p><b>Data:</b> 2025-06-02</p>\n            "}
+2025-06-02 13:58:05 - INFO - 192.168.88.83:49158 - "POST /sendmail HTTP/1.1" 200
+2025-06-02 13:58:06 - INFO - Client: 192.168.88.83, Method: GET, Path: /LerEst, Body: 
+2025-06-02 13:58:11 - INFO - 192.168.88.83:49158 - "GET /LerEst HTTP/1.1" 200
+2025-06-02 15:03:02 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-02 15:03:06 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-02 15:03:09 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-02 15:03:09 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-02 15:03:19 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-02 15:03:19 - INFO - 192.168.88.1:61005 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-02 15:03:19 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-02 15:03:22 - INFO - 192.168.88.1:61005 - "GET /LerEst HTTP/1.1" 200
+2025-06-02 15:04:48 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /sendmail, Body: 
+2025-06-02 15:04:48 - INFO - 192.168.88.1:62886 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-02 15:04:48 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> TRANSDUTOR ENDOCAVITARIO EVN4-9 (SAMSUNG/MEDISON) K0DTM3GGB00175M | K0DTM3GGB00175M-EQ2092</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Danilo</p>\n                <p><b>Motivo ou OS:</b> 202500640</p>\n                <p><b>Data:</b> 2025-06-02</p>\n            "}
+2025-06-02 15:04:48 - INFO - 192.168.88.1:62886 - "POST /sendmail HTTP/1.1" 200
+2025-06-02 15:05:55 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-02 15:06:04 - INFO - 192.168.88.1:64311 - "GET /LerEst HTTP/1.1" 200
+2025-06-02 16:49:28 - INFO - Client: 192.168.88.31, Method: GET, Path: /LerEst, Body: 
+2025-06-02 16:49:35 - INFO - 192.168.88.31:60276 - "GET /LerEst HTTP/1.1" 200
+2025-06-02 16:50:51 - INFO - Client: 192.168.88.31, Method: OPTIONS, Path: /sendmail, Body: 
+2025-06-02 16:50:51 - INFO - 192.168.88.31:60311 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-02 16:50:51 - INFO - Client: 192.168.88.31, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> IMPRESSORA | (HP) COLOR LASERJET PRO MFP M177FW BRGSH6B198 | MC1I0002</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Isaque Fagundes</p>\n                <p><b>Motivo ou OS:</b> Vamos tentar instalar no setor da qualidade, para a Diane.</p>\n                <p><b>Data:</b> 2025-06-03</p>\n            "}
+2025-06-02 16:50:51 - INFO - 192.168.88.31:60311 - "POST /sendmail HTTP/1.1" 200
+2025-06-02 17:01:15 - INFO - Client: 192.168.88.47, Method: GET, Path: /test-page, Body: 
+2025-06-02 17:01:15 - INFO - 192.168.88.47:59333 - "GET /test-page HTTP/1.1" 200
+2025-06-02 17:01:15 - INFO - Client: 192.168.88.47, Method: GET, Path: /favicon.ico, Body: 
+2025-06-02 17:01:15 - INFO - 192.168.88.47:59333 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-02 17:01:22 - INFO - Client: 192.168.88.47, Method: GET, Path: /test-page, Body: 
+2025-06-02 17:01:22 - INFO - 192.168.88.47:59337 - "GET /test-page HTTP/1.1" 200
+2025-06-02 17:01:46 - INFO - Client: 192.168.88.47, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-02 17:01:46 - INFO - 192.168.88.47:59350 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-02 17:01:46 - INFO - Client: 192.168.88.47, Method: GET, Path: /LerEst, Body: 
+2025-06-02 17:01:52 - INFO - 192.168.88.47:59353 - "GET /LerEst HTTP/1.1" 200
+2025-06-02 17:03:29 - INFO - Client: 192.168.88.47, Method: OPTIONS, Path: /sendmail, Body: 
+2025-06-02 17:03:29 - INFO - 192.168.88.47:59369 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-02 17:03:29 - INFO - Client: 192.168.88.47, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CAMISETA | OPUS CINZA FEMININA G | MC1C0022</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Para Bruna</p>\n                <p><b>Data:</b> 20252-06-02</p>\n            "}
+2025-06-02 17:03:29 - INFO - 192.168.88.47:59369 - "POST /sendmail HTTP/1.1" 200
+2025-06-02 17:03:31 - INFO - Client: 192.168.88.47, Method: GET, Path: /LerEst, Body: 
+2025-06-02 17:03:37 - INFO - 192.168.88.47:59369 - "GET /LerEst HTTP/1.1" 200
+2025-06-02 17:04:21 - INFO - Client: 192.168.88.47, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CAMISETA | M BRANCA OPUS | MC1C0008</p>\n                <p><b>Saldo:</b> 7</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Colaboradora Bruna</p>\n                <p><b>Data:</b> 2025-06-02</p>\n            "}
+2025-06-02 17:04:21 - INFO - 192.168.88.47:59376 - "POST /sendmail HTTP/1.1" 200
+2025-06-02 17:04:22 - INFO - Client: 192.168.88.47, Method: GET, Path: /LerEst, Body: 
+2025-06-02 17:46:45 - INFO - Client: 192.168.88.31, Method: GET, Path: /LerEst, Body: 
+2025-06-02 17:46:53 - INFO - 192.168.88.31:61663 - "GET /LerEst HTTP/1.1" 200
+2025-06-03 09:20:14 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-03 09:20:14 - INFO - 192.168.88.1:18635 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-03 09:20:14 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-03 09:20:22 - INFO - 192.168.88.1:18635 - "GET /LerEst HTTP/1.1" 200
+2025-06-03 09:20:55 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /sendmail, Body: 
+2025-06-03 09:20:55 - INFO - 192.168.88.1:19780 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-03 09:20:55 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> PANO MULTIUSO | (PERFLEX) 600 FOLHAS 28x40cm | MC1P0015</p>\n                <p><b>Saldo:</b> 6</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Danilo</p>\n                <p><b>Motivo ou OS:</b> 202500651</p>\n                <p><b>Data:</b> 2025-06-03</p>\n            "}
+2025-06-03 09:20:55 - INFO - 192.168.88.1:19780 - "POST /sendmail HTTP/1.1" 200
+2025-06-03 09:20:57 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-03 09:21:00 - INFO - 192.168.88.1:19780 - "GET /LerEst HTTP/1.1" 200
+2025-06-03 09:22:22 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> DESINFETANTE HOSPITALAR | A BASE DE QUATERNARIO DE AMONIO SPRAY 750ML REGISTRO ANVISA | MC1D0014</p>\n                <p><b>Saldo:</b> 3</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> Danilo</p>\n                <p><b>Motivo ou OS:</b> 202500651 E 202500526</p>\n                <p><b>Data:</b> 2025-06-03</p>\n            "}
+2025-06-03 09:22:22 - INFO - 192.168.88.1:21189 - "POST /sendmail HTTP/1.1" 200
+2025-06-03 09:22:24 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-03 09:22:30 - INFO - 192.168.88.1:21189 - "GET /LerEst HTTP/1.1" 200
+2025-06-03 09:23:08 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> LUVA PARA PROCEDIMENTO NAO CIRURGICO | NITRILICA AZUL SEM PO TAMANHO G C/100UN | MC1L0006</p>\n                <p><b>Saldo:</b> 25</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Danilo</p>\n                <p><b>Motivo ou OS:</b> AREA TECNICA</p>\n                <p><b>Data:</b> 2025-06-03</p>\n            "}
+2025-06-03 09:23:08 - INFO - 192.168.88.1:22248 - "POST /sendmail HTTP/1.1" 200
+2025-06-03 09:38:55 - INFO - Client: 192.168.88.83, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-03 09:38:55 - INFO - 192.168.88.83:54582 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-03 09:38:55 - INFO - Client: 192.168.88.83, Method: GET, Path: /LerEst, Body: 
+2025-06-03 09:39:02 - INFO - 192.168.88.83:54582 - "GET /LerEst HTTP/1.1" 200
+2025-06-03 09:39:26 - INFO - Client: 192.168.88.83, Method: OPTIONS, Path: /sendmail, Body: 
+2025-06-03 09:39:26 - INFO - 192.168.88.83:54595 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-03 09:39:26 - INFO - Client: 192.168.88.83, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> GRAXA | AZUL 500G | MC1G0002</p>\n                <p><b>Saldo:</b> 11</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Diane Ferreira</p>\n                <p><b>Motivo ou OS:</b> Manutenção Predial - D3R</p>\n                <p><b>Data:</b> 2025-06-03</p>\n            "}
+2025-06-03 09:39:26 - INFO - 192.168.88.83:54595 - "POST /sendmail HTTP/1.1" 200
+2025-06-03 09:45:46 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-03 09:45:46 - INFO - 192.168.88.1:45353 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-03 09:45:46 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-03 09:45:48 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body: 
+2025-06-03 09:45:48 - INFO - 192.168.88.63:51915 - "GET /test-page HTTP/1.1" 200
+2025-06-03 09:45:48 - INFO - Client: 192.168.88.63, Method: GET, Path: /favicon.ico, Body: 
+2025-06-03 09:45:48 - INFO - 192.168.88.63:51915 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-03 09:45:53 - INFO - 192.168.88.1:45353 - "GET /LerEst HTTP/1.1" 200
+2025-06-03 09:46:32 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /sendmail, Body: 
+2025-06-03 09:46:32 - INFO - 192.168.88.1:45418 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-03 09:46:32 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> TONER | BROTHER LASER TN B021 | MC1T0001</p>\n                <p><b>Saldo:</b> 2</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Giovanna Rodrigues</p>\n                <p><b>Motivo ou OS:</b> ACABOU - VICENTE MARTINS - URGENTE</p>\n                <p><b>Data:</b> 2025-06-03</p>\n            "}
+2025-06-03 09:46:32 - INFO - 192.168.88.1:45418 - "POST /sendmail HTTP/1.1" 200
+2025-06-03 09:46:58 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body: 
+2025-06-03 09:46:58 - INFO - 192.168.88.63:51946 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-03 09:46:58 - INFO - Client: 192.168.88.63, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina | Preciso entregar para os colaboradores que ainda não tem.","ItensReqCompra":[{"codItem":"MC1E0029","qtde":20}]}
+2025-06-03 09:46:59 - INFO - 192.168.88.63:51946 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-03 09:57:42 - INFO - Client: 192.168.88.47, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-03 09:57:42 - INFO - 192.168.88.47:49157 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-03 09:57:42 - INFO - Client: 192.168.88.47, Method: GET, Path: /LerEst, Body: 
+2025-06-03 09:57:47 - INFO - 192.168.88.47:49157 - "GET /LerEst HTTP/1.1" 200
+2025-06-03 09:59:02 - INFO - Client: 192.168.88.47, Method: GET, Path: /test-page, Body: 
+2025-06-03 09:59:02 - INFO - 192.168.88.47:49200 - "GET /test-page HTTP/1.1" 200
+2025-06-03 09:59:02 - INFO - Client: 192.168.88.47, Method: GET, Path: /favicon.ico, Body: 
+2025-06-03 09:59:02 - INFO - 192.168.88.47:49200 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-03 09:59:07 - INFO - Client: 192.168.88.47, Method: GET, Path: /LerEst, Body: 
+2025-06-03 09:59:13 - INFO - 192.168.88.47:49204 - "GET /LerEst HTTP/1.1" 200
+2025-06-03 09:59:45 - INFO - Client: 192.168.88.47, Method: OPTIONS, Path: /sendmail, Body: 
+2025-06-03 09:59:45 - INFO - 192.168.88.47:49210 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-03 09:59:45 - INFO - Client: 192.168.88.47, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> PILHA | ALCALINA TIPO AA 1,5V | MC1P0008</p>\n                <p><b>Saldo:</b> 34</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Para o meu mouse</p>\n                <p><b>Data:</b> 2025-06-03</p>\n            "}
+2025-06-03 09:59:45 - INFO - 192.168.88.47:49210 - "POST /sendmail HTTP/1.1" 200
+2025-06-03 09:59:48 - INFO - Client: 192.168.88.47, Method: GET, Path: /LerEst, Body: 
+2025-06-03 09:59:51 - INFO - 192.168.88.47:49210 - "GET /LerEst HTTP/1.1" 200
+2025-06-03 10:00:26 - INFO - Client: 192.168.88.47, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CAMISETA | OPUS CINZA FEMININA G | MC1C0022</p>\n                <p><b>Saldo:</b> 3</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Para Bruna</p>\n                <p><b>Data:</b> 2025-06-03</p>\n            "}
+2025-06-03 10:00:26 - INFO - 192.168.88.47:49229 - "POST /sendmail HTTP/1.1" 200
+2025-06-03 10:33:38 - INFO - Client: 192.168.88.47, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-03 10:33:38 - INFO - 192.168.88.47:51163 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-03 10:33:38 - INFO - Client: 192.168.88.47, Method: GET, Path: /LerEst, Body: 
+2025-06-03 10:33:52 - INFO - Client: 192.168.88.47, Method: GET, Path: /LerEst, Body: 
+2025-06-03 10:34:00 - INFO - 192.168.88.47:51174 - "GET /LerEst HTTP/1.1" 200
+2025-06-03 10:34:57 - INFO - Client: 192.168.88.47, Method: OPTIONS, Path: /sendmail, Body: 
+2025-06-03 10:34:57 - INFO - 192.168.88.47:51233 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-03 10:34:57 - INFO - Client: 192.168.88.47, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> BOTA DE SEGURANCA | TAMANHO 43 | MC1B0022</p>\n                <p><b>Saldo:</b> 2</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Para o colaborador da Vm novo - Hericles</p>\n                <p><b>Data:</b> 2025-06-03</p>\n            "}
+2025-06-03 10:34:57 - INFO - 192.168.88.47:51233 - "POST /sendmail HTTP/1.1" 200
+2025-06-03 12:19:19 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-03 12:19:19 - INFO - 192.168.88.63:54982 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-03 12:19:19 - INFO - Client: 192.168.88.63, Method: GET, Path: /LerEst, Body: 
+2025-06-03 12:19:25 - INFO - 192.168.88.63:54982 - "GET /LerEst HTTP/1.1" 200
+2025-06-03 12:19:50 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /sendmail, Body: 
+2025-06-03 12:19:50 - INFO - 192.168.88.63:54986 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-03 12:19:50 - INFO - Client: 192.168.88.63, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CADERNO UNIVERSITARIO | 10 MATERIAS ESPIRAL CAPA DURA | MC1C0076</p>\n                <p><b>Saldo:</b> 5</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Larissa Valentina</p>\n                <p><b>Motivo ou OS:</b> Entregar para uma colaboradora</p>\n                <p><b>Data:</b> 2025-06-03</p>\n            "}
+2025-06-03 12:19:50 - INFO - 192.168.88.63:54986 - "POST /sendmail HTTP/1.1" 200
+2025-06-03 16:48:31 - INFO - Client: 192.168.88.47, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-03 16:48:31 - INFO - 192.168.88.47:50664 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-03 16:48:31 - INFO - Client: 192.168.88.47, Method: GET, Path: /LerEst, Body: 
+2025-06-03 16:48:39 - INFO - 192.168.88.47:50664 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 09:45:09 - INFO - Client: 192.168.88.1, Method: GET, Path: /test-page, Body: 
+2025-06-04 09:45:09 - INFO - 192.168.88.1:23091 - "GET /test-page HTTP/1.1" 200
+2025-06-04 09:45:09 - INFO - Client: 192.168.88.1, Method: GET, Path: /favicon.ico, Body: 
+2025-06-04 09:45:09 - INFO - 192.168.88.1:23091 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-04 09:45:21 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-04 09:45:21 - INFO - 192.168.88.1:23367 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-04 09:45:21 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-04 09:45:22 - INFO - 192.168.88.1:23367 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 09:45:27 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-04 09:48:56 - INFO - Client: 192.168.88.172, Method: GET, Path: /test-page, Body: 
+2025-06-04 09:48:56 - INFO - 192.168.88.172:61728 - "GET /test-page HTTP/1.1" 200
+2025-06-04 09:48:56 - INFO - Client: 192.168.88.172, Method: GET, Path: /favicon.ico, Body: 
+2025-06-04 09:48:56 - INFO - 192.168.88.172:61728 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-04 09:48:58 - INFO - Client: 192.168.88.172, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-04 09:48:58 - INFO - 192.168.88.172:61733 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-04 09:48:58 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-06-04 09:49:02 - INFO - 192.168.88.172:61733 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 09:49:06 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-06-04 09:49:07 - INFO - 192.168.88.172:61733 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 09:49:16 - INFO - Client: 192.168.88.172, Method: GET, Path: /LerEst, Body: 
+2025-06-04 09:49:17 - INFO - 192.168.88.172:61742 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 09:51:07 - INFO - 192.168.88.1:23167 - "GET /LerEst HTTP/1.1" 500
+2025-06-04 09:54:26 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-04 09:54:41 - INFO - Client: 192.168.88.1, Method: GET, Path: /test-page, Body: 
+2025-06-04 09:54:41 - INFO - 192.168.88.1:33528 - "GET /test-page HTTP/1.1" 200
+2025-06-04 09:55:33 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-04 09:55:33 - INFO - 192.168.88.1:32950 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-04 09:55:53 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-04 09:56:00 - INFO - 192.168.88.1:34689 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 09:56:34 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-04 09:56:36 - INFO - 192.168.88.1:34189 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 09:56:39 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-04 09:56:41 - INFO - 192.168.88.1:34189 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 09:58:02 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-04 09:58:02 - INFO - 192.168.88.1:37165 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-04 09:58:02 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-04 09:58:03 - INFO - 192.168.88.1:37165 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 09:58:13 - INFO - Client: 192.168.88.1, Method: GET, Path: /test-page, Body: 
+2025-06-04 09:58:13 - INFO - 192.168.88.1:37523 - "GET /test-page HTTP/1.1" 200
+2025-06-04 09:58:42 - INFO - Client: 192.168.88.1, Method: GET, Path: /test-page, Body: 
+2025-06-04 09:58:42 - INFO - 192.168.88.1:37985 - "GET /test-page HTTP/1.1" 200
+2025-06-04 09:58:50 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-04 09:58:51 - INFO - 192.168.88.1:38242 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 09:58:57 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-04 09:58:58 - INFO - 192.168.88.1:38571 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 10:24:07 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body: 
+2025-06-04 10:24:07 - INFO - 192.168.88.63:51572 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-04 10:24:08 - INFO - Client: 192.168.88.63, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina | Para os colaboradores que ainda não possui e para os colaboradores novos, apenas 30 unidades.","ItensReqCompra":[{"codItem":"MC1M0038","qtde":30}]}
+2025-06-04 10:24:31 - INFO - 192.168.88.63:51572 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-04 13:02:19 - INFO - Client: 192.168.88.156, Method: GET, Path: /LerEst, Body: 
+2025-06-04 13:02:26 - INFO - 192.168.88.156:49270 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 13:49:45 - INFO - Client: 192.168.88.83, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-04 13:49:45 - INFO - 192.168.88.83:50145 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-04 13:49:45 - INFO - Client: 192.168.88.83, Method: GET, Path: /LerEst, Body: 
+2025-06-04 13:49:52 - INFO - 192.168.88.83:50145 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 13:50:50 - INFO - Client: 192.168.88.83, Method: OPTIONS, Path: /sendmail, Body: 
+2025-06-04 13:50:50 - INFO - 192.168.88.83:50183 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-04 13:50:50 - INFO - Client: 192.168.88.83, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> ABRACADEIRA | DE NYLON 300mm x 3,6mm C/ 100 UN | MC1A0035</p>\n                <p><b>Saldo:</b> 3</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Diane Ferreira</p>\n                <p><b>Motivo ou OS:</b> Manutenção Predial - Utilização do Ubirajara</p>\n                <p><b>Data:</b> 2025-06-04</p>\n            "}
+2025-06-04 13:50:50 - INFO - 192.168.88.83:50183 - "POST /sendmail HTTP/1.1" 200
+2025-06-04 13:52:11 - INFO - Client: 192.168.88.47, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-04 13:52:11 - INFO - 192.168.88.47:57944 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-04 13:52:11 - INFO - Client: 192.168.88.47, Method: GET, Path: /LerEst, Body: 
+2025-06-04 13:52:17 - INFO - 192.168.88.47:57944 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 13:52:45 - INFO - Client: 192.168.88.47, Method: OPTIONS, Path: /sendmail, Body: 
+2025-06-04 13:52:45 - INFO - 192.168.88.47:57949 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-04 13:52:45 - INFO - Client: 192.168.88.47, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> APOIO DE DESCANSO BASE | SUPORTE ERGONOMICO PARA OS PES | MC1A0012</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Para Lays</p>\n                <p><b>Data:</b> 2025-06-04</p>\n            "}
+2025-06-04 13:52:45 - INFO - 192.168.88.47:57949 - "POST /sendmail HTTP/1.1" 200
+2025-06-04 13:52:46 - INFO - Client: 192.168.88.47, Method: GET, Path: /LerEst, Body: 
+2025-06-04 13:52:49 - INFO - 192.168.88.47:57949 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 14:00:10 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body: 
+2025-06-04 14:00:10 - INFO - 192.168.88.63:54464 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-04 14:00:10 - INFO - Client: 192.168.88.63, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina | Para colaboradores que ainda não possui.","ItensReqCompra":[{"codItem":"MC1A0012","qtde":5}]}
+2025-06-04 14:00:16 - INFO - 192.168.88.63:54464 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-04 15:04:35 - INFO - Client: 192.168.88.203, Method: GET, Path: /test-page, Body: 
+2025-06-04 15:04:35 - INFO - 192.168.88.203:59507 - "GET /test-page HTTP/1.1" 200
+2025-06-04 15:04:35 - INFO - Client: 192.168.88.203, Method: GET, Path: /favicon.ico, Body: 
+2025-06-04 15:04:35 - INFO - 192.168.88.203:59507 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-04 15:05:04 - INFO - Client: 192.168.88.62, Method: GET, Path: /test-page, Body: 
+2025-06-04 15:05:04 - INFO - 192.168.88.62:53958 - "GET /test-page HTTP/1.1" 200
+2025-06-04 15:05:04 - INFO - Client: 192.168.88.62, Method: GET, Path: /favicon.ico, Body: 
+2025-06-04 15:05:04 - INFO - 192.168.88.62:53958 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-04 15:05:16 - INFO - Client: 192.168.88.62, Method: OPTIONS, Path: /NotaFiscal, Body: 
+2025-06-04 15:05:16 - INFO - 192.168.88.62:53968 - "OPTIONS /NotaFiscal HTTP/1.1" 200
+2025-06-04 15:05:16 - INFO - Client: 192.168.88.62, Method: POST, Path: /NotaFiscal, Body: {"numNF":"4129"}
+2025-06-04 15:05:19 - INFO - 192.168.88.62:53968 - "POST /NotaFiscal HTTP/1.1" 200
+2025-06-04 16:44:01 - INFO - Client: 192.168.88.31, Method: GET, Path: /LerEst, Body: 
+2025-06-04 16:44:08 - INFO - 192.168.88.31:55728 - "GET /LerEst HTTP/1.1" 200
+2025-06-04 17:01:57 - INFO - Client: 192.168.88.1, Method: GET, Path: /test-page, Body: 
+2025-06-04 17:01:57 - INFO - 192.168.88.1:13372 - "GET /test-page HTTP/1.1" 200
+2025-06-04 17:08:40 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-04 17:08:40 - INFO - 192.168.88.1:21180 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-04 17:08:40 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-05 16:20:33 - INFO - Client: 192.168.88.1, Method: GET, Path: /test-page, Body: 
+2025-06-05 16:20:33 - INFO - 192.168.88.1:5232 - "GET /test-page HTTP/1.1" 200
+2025-06-05 16:20:33 - INFO - Client: 192.168.88.1, Method: GET, Path: /favicon.ico, Body: 
+2025-06-05 16:20:33 - INFO - 192.168.88.1:5232 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-05 16:20:39 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-05 16:20:39 - INFO - 192.168.88.1:5541 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-05 16:20:39 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body: 
+2025-06-05 16:20:47 - INFO - 192.168.88.1:5541 - "GET /LerEst HTTP/1.1" 200
+2025-06-05 16:21:19 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /sendmail, Body: 
+2025-06-05 16:21:19 - INFO - 192.168.88.1:5654 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-05 16:21:19 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CAFE | 500G | MC1C0003</p>\n                <p><b>Saldo:</b> 16</p>\n                <p><b>Quantidade:</b> 3</p>\n                <p><b>Solicitante:</b> Giovanna Rodrigues</p>\n                <p><b>Motivo ou OS:</b> vicente martins - acabou</p>\n                <p><b>Data:</b> 2025-06-05</p>\n            "}
+2025-06-05 16:21:19 - INFO - 192.168.88.1:5654 - "POST /sendmail HTTP/1.1" 200
+2025-06-05 16:47:49 - WARNING - StatReload detected changes in 'arq_consultar_equipamento.py'. Reloading...
+2025-06-05 16:47:49 - INFO - Shutting down
+2025-06-05 16:47:49 - INFO - Waiting for application shutdown.
+2025-06-05 16:47:49 - INFO - Application shutdown complete.
+2025-06-05 16:47:49 - INFO - Finished server process [5580]
+2025-06-05 16:48:06 - INFO - Started server process [5936]
+2025-06-05 16:48:06 - INFO - Waiting for application startup.
+2025-06-05 16:48:06 - INFO - Application startup complete.
+2025-06-05 16:49:42 - WARNING - StatReload detected changes in 'arq_consultar_equipamento.py'. Reloading...
+2025-06-05 16:49:42 - INFO - Shutting down
+2025-06-05 16:49:42 - INFO - Waiting for application shutdown.
+2025-06-05 16:49:42 - INFO - Application shutdown complete.
+2025-06-05 16:49:42 - INFO - Finished server process [5936]
+2025-06-05 16:49:46 - INFO - Started server process [6100]
+2025-06-05 16:49:46 - INFO - Waiting for application startup.
+2025-06-05 16:49:46 - INFO - Application startup complete.

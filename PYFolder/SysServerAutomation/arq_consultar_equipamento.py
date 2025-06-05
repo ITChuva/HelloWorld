@@ -155,6 +155,8 @@ def consultar_equipamento(numero_serie_input):
                             CodFamilia = "7387344116"
                         elif familia_nome == "RAIO-X" or familia_nome == "EQUIPAMENTO DE RAIO-X MOVEL":
                             CodFamilia = "7313956365"
+                        elif familia_nome == "CARRINHO DE ANESTESIA" or familia_nome == "CARRO DE ANESTESIA":
+                            CodFamilia = "7461363093"
                         elif familia_nome == "ULTRASSOM":
                             CodFamilia = "7281767348"
                         elif "TRANSDUTOR" in familia_nome:
