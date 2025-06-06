@@ -17,13 +17,8 @@ def incluir_requisicao_compra(codIntReqCompra, codProj, dtSugestao, obsIntReqCom
     }
 
     payload = {
-<<<<<<< HEAD
         "app_key": "1826443506888",  # Ocultado
         "app_secret": "c9e60167e96e156e2655a92fdcd77df7",  # Ocultado
-=======
-        "app_key": "***",  # Ocultado
-        "app_secret": "***",  # Ocultado
->>>>>>> 28b262d8978ef60d386b39f0ec95e048533cb4a5
         "call": "IncluirReq",
         "param": [
             {

@@ -3524,3 +3524,62 @@ asyncio.exceptions.CancelledError
 2025-06-05 16:52:02 - INFO - Waiting for application shutdown.
 2025-06-05 16:52:02 - INFO - Application shutdown complete.
 2025-06-05 16:52:02 - INFO - Finished server process [5896]
+2025-06-05 16:57:08 - INFO - Will watch for changes in these directories: ['C:\\Users\\OPUSMANUALSERVER\\.vscode\\HelloWorld\\PYFolder\\SysServerAutomation']
+2025-06-05 16:57:08 - INFO - Uvicorn running on https://0.0.0.0:5000 (Press CTRL+C to quit)
+2025-06-05 16:57:08 - INFO - Started reloader process [7388] using StatReload
+2025-06-05 17:00:12 - WARNING - StatReload detected changes in 'arq_req_fuctions.py'. Reloading...
+2025-06-05 17:00:14 - INFO - Started server process [7400]
+2025-06-05 17:00:14 - INFO - Waiting for application startup.
+2025-06-05 17:00:14 - INFO - Application startup complete.
+2025-06-05 17:00:48 - WARNING - StatReload detected changes in 'arq_req_fuctions.py'. Reloading...
+2025-06-05 17:00:48 - INFO - Shutting down
+2025-06-05 17:00:48 - INFO - Waiting for application shutdown.
+2025-06-05 17:00:48 - INFO - Application shutdown complete.
+2025-06-05 17:00:48 - INFO - Finished server process [7400]
+2025-06-05 17:00:51 - INFO - Started server process [4596]
+2025-06-05 17:00:52 - INFO - Waiting for application startup.
+2025-06-05 17:00:52 - INFO - Application startup complete.
+2025-06-05 17:00:53 - INFO - Shutting down
+2025-06-05 17:00:53 - INFO - Waiting for application shutdown.
+2025-06-05 17:00:53 - INFO - Application shutdown complete.
+2025-06-05 17:00:53 - INFO - Finished server process [4596]
+2025-06-05 17:01:37 - INFO - Will watch for changes in these directories: ['C:\\Users\\OPUSMANUALSERVER\\.vscode\\HelloWorld\\PYFolder\\SysServerAutomation']
+2025-06-05 17:01:37 - INFO - Uvicorn running on https://0.0.0.0:5000 (Press CTRL+C to quit)
+2025-06-05 17:01:37 - INFO - Started reloader process [3088] using StatReload
+2025-06-05 17:01:39 - INFO - Started server process [7288]
+2025-06-05 17:01:39 - INFO - Waiting for application startup.
+2025-06-05 17:01:39 - INFO - Application startup complete.
+2025-06-05 17:02:55 - INFO - Client: 192.168.88.31, Method: GET, Path: /LerEst, Body: 
+2025-06-05 17:03:02 - INFO - 192.168.88.31:60555 - "GET /LerEst HTTP/1.1" 200
+2025-06-06 08:30:07 - INFO - Client: 192.168.88.62, Method: GET, Path: /test-page, Body: 
+2025-06-06 08:30:07 - INFO - 192.168.88.62:50434 - "GET /test-page HTTP/1.1" 200
+2025-06-06 08:30:07 - INFO - Client: 192.168.88.62, Method: GET, Path: /favicon.ico, Body: 
+2025-06-06 08:30:07 - INFO - 192.168.88.62:50434 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-06 08:30:20 - INFO - Client: 192.168.88.62, Method: OPTIONS, Path: /NotaFiscal, Body: 
+2025-06-06 08:30:20 - INFO - 192.168.88.62:50443 - "OPTIONS /NotaFiscal HTTP/1.1" 200
+2025-06-06 08:30:20 - INFO - Client: 192.168.88.62, Method: POST, Path: /NotaFiscal, Body: {"numNF":"4131"}
+2025-06-06 08:30:22 - INFO - 192.168.88.62:50443 - "POST /NotaFiscal HTTP/1.1" 200
+2025-06-06 11:04:31 - INFO - Client: 192.168.88.84, Method: GET, Path: /test-page, Body: 
+2025-06-06 11:04:31 - INFO - 192.168.88.84:49522 - "GET /test-page HTTP/1.1" 200
+2025-06-06 11:04:32 - INFO - Client: 192.168.88.84, Method: GET, Path: /favicon.ico, Body: 
+2025-06-06 11:04:32 - INFO - 192.168.88.84:49522 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-06 11:04:47 - INFO - Client: 192.168.88.84, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-06 11:04:47 - INFO - 192.168.88.84:49525 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-06 11:04:47 - INFO - Client: 192.168.88.84, Method: GET, Path: /LerEst, Body: 
+2025-06-06 11:04:59 - INFO - 192.168.88.84:49528 - "GET /LerEst HTTP/1.1" 200
+2025-06-06 11:08:10 - INFO - Client: 192.168.88.84, Method: OPTIONS, Path: /LerEst, Body: 
+2025-06-06 11:08:10 - INFO - 192.168.88.84:49534 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-06 11:08:11 - INFO - Client: 192.168.88.84, Method: GET, Path: /LerEst, Body: 
+2025-06-06 11:08:17 - INFO - 192.168.88.84:49537 - "GET /LerEst HTTP/1.1" 200
+2025-06-06 11:09:55 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body: 
+2025-06-06 11:09:55 - INFO - 192.168.88.1:51780 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-06-06 11:09:55 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"701120"}
+2025-06-06 11:09:59 - INFO - 192.168.88.1:51780 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-06 13:37:25 - WARNING - StatReload detected changes in 'arq_Send_Email.py'. Reloading...
+2025-06-06 13:37:29 - INFO - Shutting down
+2025-06-06 13:37:29 - INFO - Waiting for application shutdown.
+2025-06-06 13:37:29 - INFO - Application shutdown complete.
+2025-06-06 13:37:29 - INFO - Finished server process [7288]
+2025-06-06 13:37:43 - INFO - Started server process [1576]
+2025-06-06 13:37:43 - INFO - Waiting for application startup.
+2025-06-06 13:37:43 - INFO - Application startup complete.
