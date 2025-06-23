@@ -1,0 +1,563 @@
+2025-06-16 13:56:09 - INFO - Will watch for changes in these directories: ['C:\\Users\\OPUSMANUALSERVER\\.vscode\\HelloWorld\\PYFolder\\SysServerAutomation']
+2025-06-16 13:56:09 - INFO - Uvicorn running on https://0.0.0.0:5000 (Press CTRL+C to quit)
+2025-06-16 13:56:09 - INFO - Started reloader process [6952] using StatReload
+2025-06-16 13:56:18 - INFO - Started server process [5668]
+2025-06-16 13:56:18 - INFO - Waiting for application startup.
+2025-06-16 13:56:18 - INFO - Application startup complete.
+2025-06-17 09:25:53 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body:
+2025-06-17 09:25:53 - INFO - 192.168.88.1:33239 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-06-17 09:25:53 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"189954"}
+Received data: {'numeroSerie': '189954'}
+Attempt 1: Status Code: 200
+{'numeroSerie': '189954', 'patrimonio': None, 'modelo': {'nome': 'FL-2000', 'fabricante': {'nome': 'MEDPEJ'}, 'familia': {'nome': 'FOCO CIRURGICO AUXILIAR'}}, 'valorAquisicao': 10000.0, 'clienteId': 12144, 'empresaId': 1}
+Número de Série: 189954
+Patrimônio: None
+Nome do Equipamento: FOCO CIRURGICO AUXILIAR | FL-2000 (MEDPEJ)
+Nome do Modelo: FL-2000
+Fabricante do Modelo: MEDPEJ
+Família do Modelo: FOCO CIRURGICO AUXILIAR
+Valor de Aquisição: 10000.0
+Cliente ID: 12144
+Definindo codOMIE como CL devido ao cliente_id: 189954-CL
+Descrição final: FOCO CIRURGICO AUXILIAR | FL-2000 (MEDPEJ), BlocoK: 99
+7281765596
+{'numeroSerie': '189954', 'patrimonio': None, 'modelo': {'nome': 'FL-2000', 'fabricante': {'nome': 'MEDPEJ'}, 'familia': {'nome': 'FOCO CIRURGICO AUXILIAR'}}, 'valorAquisicao': 10000.0, 'clienteId': 12144, 'empresaId': 1, 'ncm': '9999.99.99', 'blocoK': '99', 'codigoFamilia': '7281765596', 'codOMIE': '189954-CL', 'nome': 'FOCO CIRURGICO AUXILIAR | FL-2000 (MEDPEJ)'}
+1
+Requisição bem-sucedida. Resposta do servidor:
+{'codigo_produto': 7465031940, 'codigo_produto_integracao': '189954-CL', 'codigo_status': '0', 'descricao_status': 'Produto cadastrado com sucesso!'}
+Produto incluído com sucesso no OMIE.
+E-mail enviado com sucesso!
+2025-06-17 09:25:58 - INFO - 192.168.88.1:33206 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-17 10:34:40 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body:
+2025-06-17 10:34:40 - INFO - 192.168.88.1:43969 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-06-17 10:34:40 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"CI50090714"}
+Received data: {'numeroSerie': 'CI50090714'}
+Attempt 1: Status Code: 200
+Equipamento com número de série CI50090714 não encontrado.
+Erro ao processar requisição: Equipamento não encontrado
+2025-06-17 10:34:41 - INFO - 192.168.88.1:43969 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-17 10:36:33 - INFO - Client: 192.168.88.75, Method: OPTIONS, Path: /LerEst, Body:
+2025-06-17 10:36:33 - INFO - 192.168.88.75:55666 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-17 10:36:33 - INFO - Client: 192.168.88.75, Method: GET, Path: /LerEst, Body:
+2025-06-17 10:36:44 - INFO - 192.168.88.75:55669 - "GET /LerEst HTTP/1.1" 200
+2025-06-17 10:36:54 - INFO - Client: 192.168.88.75, Method: GET, Path: /test-page, Body:
+2025-06-17 10:36:54 - INFO - 192.168.88.75:55693 - "GET /test-page HTTP/1.1" 200
+2025-06-17 10:36:54 - INFO - Client: 192.168.88.75, Method: GET, Path: /favicon.ico, Body:
+2025-06-17 10:36:54 - INFO - 192.168.88.75:55693 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-17 10:37:03 - INFO - Client: 192.168.88.75, Method: GET, Path: /LerEst, Body:
+2025-06-17 10:37:07 - INFO - 192.168.88.75:55707 - "GET /LerEst HTTP/1.1" 200
+2025-06-17 10:37:38 - INFO - Client: 192.168.88.75, Method: OPTIONS, Path: /sendmail, Body:
+2025-06-17 10:37:38 - INFO - 192.168.88.75:55744 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-17 10:37:38 - INFO - Client: 192.168.88.75, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> SULFITE | 75g PACOTE 500 FOLHAS DE PAPEL | MC1S0012</p>\n                <p><b>Saldo:</b> 9</p>\n                <p><b>Quantidade:</b> 3</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Reposição Administrativo</p>\n                <p><b>Data:</b> 2025-06-17</p>\n            "}
+[DEBUG] Iniciando envio de e-mail com conteúdo:
+                <p><b>Item selecionado:</b> SULFITE | 75g PACOTE 500 FOLHAS DE PAPEL | MC1S0012</p>
+                <p><b>Saldo:</b> 9</p>
+                <p><b>Quantidade:</b> 3</p>
+                <p><b>Solicitante:</b> Dyovanna</p>
+                <p><b>Motivo ou OS:</b> Reposição Administrativo</p>
+                <p><b>Data:</b> 2025-06-17</p>
+
+[DEBUG] Email enviado com sucesso.
+2025-06-17 10:37:39 - INFO - 192.168.88.75:55744 - "POST /sendmail HTTP/1.1" 200
+2025-06-17 10:37:41 - INFO - Client: 192.168.88.75, Method: GET, Path: /LerEst, Body:
+2025-06-17 11:07:30 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body:
+2025-06-17 11:07:30 - INFO - 192.168.88.1:9481 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-06-17 11:07:30 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"V1A0000678"}
+Received data: {'numeroSerie': 'V1A0000678'}
+Attempt 1: Status Code: 200
+{'numeroSerie': 'V1A0000678', 'patrimonio': None, 'modelo': {'nome': 'VITA 1100A', 'fabricante': {'nome': 'ALFAMED'}, 'familia': {'nome': 'MONITOR MULTIPARAMETRO'}}, 'valorAquisicao': 5000.0, 'clienteId': 10170, 'empresaId': 1}
+Número de Série: V1A0000678
+Patrimônio: None
+Nome do Equipamento: MONITOR MULTIPARAMETRO | VITA 1100A (ALFAMED)
+Nome do Modelo: VITA 1100A
+Fabricante do Modelo: ALFAMED
+Família do Modelo: MONITOR MULTIPARAMETRO
+Valor de Aquisição: 5000.0
+Cliente ID: 10170
+Definindo codOMIE como CL devido ao cliente_id: V1A0000678-CL
+Descrição final: MONITOR MULTIPARAMETRO | VITA 1100A (ALFAMED), BlocoK: 99
+7281771794
+{'numeroSerie': 'V1A0000678', 'patrimonio': None, 'modelo': {'nome': 'VITA 1100A', 'fabricante': {'nome': 'ALFAMED'}, 'familia': {'nome': 'MONITOR MULTIPARAMETRO'}}, 'valorAquisicao': 5000.0, 'clienteId': 10170, 'empresaId': 1, 'ncm': '9018.19.80', 'blocoK': '99', 'codigoFamilia': '7281771794', 'codOMIE': 'V1A0000678-CL', 'nome': 'MONITOR MULTIPARAMETRO | VITA 1100A (ALFAMED)'}
+1
+Requisição bem-sucedida. Resposta do servidor:
+{'codigo_produto': 7465183133, 'codigo_produto_integracao': 'V1A0000678-CL', 'codigo_status': '0', 'descricao_status': 'Produto cadastrado com sucesso!'}
+Produto incluído com sucesso no OMIE.
+E-mail enviado com sucesso!
+2025-06-17 11:07:36 - INFO - 192.168.88.1:9481 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-17 12:47:42 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body:
+2025-06-17 12:47:42 - INFO - 192.168.88.1:44507 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-17 12:47:42 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body:
+2025-06-17 12:47:49 - INFO - 192.168.88.1:44507 - "GET /LerEst HTTP/1.1" 200
+2025-06-17 12:48:04 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /sendmail, Body:
+2025-06-17 12:48:04 - INFO - 192.168.88.1:44223 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-17 12:48:04 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CAFE | 500G | MC1C0003</p>\n                <p><b>Saldo:</b> 10</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> Renan</p>\n                <p><b>Motivo ou OS:</b> Vicente Martins</p>\n                <p><b>Data:</b> 2025-06-17</p>\n            "}
+[DEBUG] Iniciando envio de e-mail com conteúdo:
+                <p><b>Item selecionado:</b> CAFE | 500G | MC1C0003</p>
+                <p><b>Saldo:</b> 10</p>
+                <p><b>Quantidade:</b> 2</p>
+                <p><b>Solicitante:</b> Renan</p>
+                <p><b>Motivo ou OS:</b> Vicente Martins</p>
+                <p><b>Data:</b> 2025-06-17</p>
+
+[DEBUG] Email enviado com sucesso.
+2025-06-17 12:48:05 - INFO - 192.168.88.1:44223 - "POST /sendmail HTTP/1.1" 200
+2025-06-17 14:41:59 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body:
+2025-06-17 14:41:59 - INFO - 192.168.88.1:24636 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-17 14:41:59 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body:
+2025-06-17 14:42:05 - INFO - 192.168.88.1:24636 - "GET /LerEst HTTP/1.1" 200
+2025-06-17 14:42:39 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /sendmail, Body:
+2025-06-17 14:42:39 - INFO - 192.168.88.1:24599 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-17 14:42:39 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> PLASTICO | BOLHA 1.30 X 100 MTS ROLO TRANSPARENTE | MC1P0019</p>\n                <p><b>Saldo:</b> 15</p>\n                <p><b>Quantidade:</b> 3</p>\n                <p><b>Solicitante:</b> Diego</p>\n                <p><b>Motivo ou OS:</b> Entregar na Opus Farma</p>\n                <p><b>Data:</b> 2025-06-17</p>\n            "}
+[DEBUG] Iniciando envio de e-mail com conteúdo:
+                <p><b>Item selecionado:</b> PLASTICO | BOLHA 1.30 X 100 MTS ROLO TRANSPARENTE | MC1P0019</p>
+                <p><b>Saldo:</b> 15</p>
+                <p><b>Quantidade:</b> 3</p>
+                <p><b>Solicitante:</b> Diego</p>
+                <p><b>Motivo ou OS:</b> Entregar na Opus Farma</p>
+                <p><b>Data:</b> 2025-06-17</p>
+
+[DEBUG] Email enviado com sucesso.
+2025-06-17 14:42:40 - INFO - 192.168.88.1:24599 - "POST /sendmail HTTP/1.1" 200
+2025-06-17 15:47:06 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body:
+2025-06-17 15:47:06 - INFO - 192.168.88.1:29324 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-06-17 15:47:06 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"B3JRLN"}
+Received data: {'numeroSerie': 'B3JRLN'}
+Attempt 1: Status Code: 200
+{'numeroSerie': 'B3JRLN', 'patrimonio': None, 'modelo': {'nome': 'C8-5', 'fabricante': {'nome': 'PHILIPS'}, 'familia': {'nome': 'TRANSDUTOR MICRO-CONVEXO'}}, 'valorAquisicao': 5000.0, 'clienteId': 4575, 'empresaId': 1}
+Número de Série: B3JRLN
+Patrimônio: None
+Nome do Equipamento: TRANSDUTOR MICRO-CONVEXO | C8-5 (PHILIPS)
+Nome do Modelo: C8-5
+Fabricante do Modelo: PHILIPS
+Família do Modelo: TRANSDUTOR MICRO-CONVEXO
+Valor de Aquisição: 5000.0
+Cliente ID: 4575
+Definindo codOMIE como CL devido ao cliente_id: B3JRLN-CL
+Descrição final: TRANSDUTOR MICRO-CONVEXO | C8-5 (PHILIPS), BlocoK: 99
+7281767246
+{'numeroSerie': 'B3JRLN', 'patrimonio': None, 'modelo': {'nome': 'C8-5', 'fabricante': {'nome': 'PHILIPS'}, 'familia': {'nome': 'TRANSDUTOR MICRO-CONVEXO'}}, 'valorAquisicao': 5000.0, 'clienteId': 4575, 'empresaId': 1, 'ncm': '9018.19.90', 'blocoK': '99', 'codigoFamilia': '7281767246', 'codOMIE': 'B3JRLN-CL', 'nome': 'TRANSDUTOR MICRO-CONVEXO | C8-5 (PHILIPS)'}
+1
+Requisição bem-sucedida. Resposta do servidor:
+{'codigo_produto': 7465420350, 'codigo_produto_integracao': 'B3JRLN-CL', 'codigo_status': '0', 'descricao_status': 'Produto cadastrado com sucesso!'}
+Produto incluído com sucesso no OMIE.
+E-mail enviado com sucesso!
+2025-06-17 15:47:12 - INFO - 192.168.88.1:29324 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-18 10:26:10 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body:
+2025-06-18 10:26:10 - INFO - 192.168.88.1:41144 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-18 10:26:10 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body:
+2025-06-18 10:26:18 - INFO - 192.168.88.1:41144 - "GET /LerEst HTTP/1.1" 200
+2025-06-18 10:34:34 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /neovero-receiver, Body:
+2025-06-18 10:34:34 - INFO - 192.168.88.1:51103 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-06-18 10:34:34 - INFO - Client: 192.168.88.1, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"F2S09073"}
+Received data: {'numeroSerie': 'F2S09073'}
+Attempt 1: Status Code: 200
+{'numeroSerie': 'F2S09073', 'patrimonio': None, 'modelo': {'nome': 'CARRO MONITOR EVERVIEW', 'fabricante': {'nome': 'GE'}, 'familia': {'nome': 'CARRO MONITOR'}}, 'valorAquisicao': 0.0, 'clienteId': None, 'empresaId': 1}
+Número de Série: F2S09073
+Patrimônio: None
+Nome do Equipamento: CARRO MONITOR | CARRO MONITOR EVERVIEW (GE)
+Nome do Modelo: CARRO MONITOR EVERVIEW
+Fabricante do Modelo: GE
+Família do Modelo: CARRO MONITOR
+Valor de Aquisição: 0.0
+Cliente ID: None
+Definindo codOMIE como EQ por padrão: F2S09073-EQ
+Descrição final: CARRO MONITOR | CARRO MONITOR EVERVIEW (GE), BlocoK: 99
+7387297711
+{'numeroSerie': 'F2S09073', 'patrimonio': None, 'modelo': {'nome': 'CARRO MONITOR EVERVIEW', 'fabricante': {'nome': 'GE'}, 'familia': {'nome': 'CARRO MONITOR'}}, 'valorAquisicao': 0.0, 'clienteId': None, 'empresaId': 1, 'ncm': '9022.14.19', 'blocoK': '99', 'codigoFamilia': '7387297711', 'codOMIE': 'F2S09073-EQ', 'nome': 'CARRO MONITOR | CARRO MONITOR EVERVIEW (GE)'}
+1
+Requisição bem-sucedida. Resposta do servidor:
+{'codigo_produto': 7483130241, 'codigo_produto_integracao': 'F2S09073-EQ', 'codigo_status': '0', 'descricao_status': 'Produto cadastrado com sucesso!'}
+Produto incluído com sucesso no OMIE.
+E-mail enviado com sucesso!
+2025-06-18 10:34:44 - INFO - 192.168.88.1:51103 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-18 11:06:49 - INFO - Client: 192.168.88.75, Method: OPTIONS, Path: /LerEst, Body:
+2025-06-18 11:06:49 - INFO - 192.168.88.75:57818 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-18 11:06:49 - INFO - Client: 192.168.88.75, Method: GET, Path: /LerEst, Body:
+2025-06-18 11:06:56 - INFO - 192.168.88.75:57818 - "GET /LerEst HTTP/1.1" 200
+2025-06-18 11:23:16 - INFO - Client: 192.168.88.75, Method: OPTIONS, Path: /sendmail, Body:
+2025-06-18 11:23:16 - INFO - 192.168.88.75:58235 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-18 11:23:16 - INFO - Client: 192.168.88.75, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> APARELHO CELULAR | 64GB ROM 4GB DE RAM DUAL CHIP USB-C | MC1A0030</p>\n                <p><b>Saldo:</b> 7</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Noa colaboradora Giovanna - Peço que entregue a Emilly</p>\n                <p><b>Data:</b> 2025-06-18</p>\n            "}
+[DEBUG] Iniciando envio de e-mail com conteúdo:
+                <p><b>Item selecionado:</b> APARELHO CELULAR | 64GB ROM 4GB DE RAM DUAL CHIP USB-C | MC1A0030</p>
+                <p><b>Saldo:</b> 7</p>
+                <p><b>Quantidade:</b> 1</p>
+                <p><b>Solicitante:</b> Dyovanna</p>
+                <p><b>Motivo ou OS:</b> Noa colaboradora Giovanna - Peço que entregue a Emilly</p>
+                <p><b>Data:</b> 2025-06-18</p>
+
+[DEBUG] Email enviado com sucesso.
+2025-06-18 11:23:17 - INFO - 192.168.88.75:58235 - "POST /sendmail HTTP/1.1" 200
+2025-06-18 11:23:20 - INFO - Client: 192.168.88.75, Method: OPTIONS, Path: /LerEst, Body:
+2025-06-18 11:23:20 - INFO - 192.168.88.75:58235 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-18 11:23:20 - INFO - Client: 192.168.88.75, Method: GET, Path: /LerEst, Body:
+2025-06-18 11:23:31 - INFO - 192.168.88.75:58243 - "GET /LerEst HTTP/1.1" 200
+2025-06-18 11:24:20 - INFO - Client: 192.168.88.75, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> NOTEBOOK | I5 11ªGERACAO 14/15&quot; WINDOWS 11 PRO 8GB RAM 256GB SDD COM SAIDA HDMI | MC1N0002</p>\n                <p><b>Saldo:</b> 1</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Colaboradora nova Giovanna - peo que entregue a Emily, por favor</p>\n                <p><b>Data:</b> 2025-06-18</p>\n            "}
+[DEBUG] Iniciando envio de e-mail com conteúdo:
+                <p><b>Item selecionado:</b> NOTEBOOK | I5 11ªGERACAO 14/15&quot; WINDOWS 11 PRO 8GB RAM 256GB SDD COM SAIDA HDMI | MC1N0002</p>
+                <p><b>Saldo:</b> 1</p>
+                <p><b>Quantidade:</b> 1</p>
+                <p><b>Solicitante:</b> Dyovanna</p>
+                <p><b>Motivo ou OS:</b> Colaboradora nova Giovanna - peo que entregue a Emily, por favor</p>
+                <p><b>Data:</b> 2025-06-18</p>
+
+[DEBUG] Email enviado com sucesso.
+2025-06-18 11:24:21 - INFO - 192.168.88.75:58254 - "POST /sendmail HTTP/1.1" 200
+2025-06-18 13:34:08 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body:
+2025-06-18 13:34:08 - INFO - 192.168.88.1:23681 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-18 13:34:08 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body:
+2025-06-18 13:34:16 - INFO - 192.168.88.1:23681 - "GET /LerEst HTTP/1.1" 200
+2025-06-20 08:24:54 - INFO - Client: 192.168.88.74, Method: GET, Path: /test-page, Body:
+2025-06-20 08:24:54 - INFO - 192.168.88.74:54466 - "GET /test-page HTTP/1.1" 200
+2025-06-20 08:24:54 - INFO - Client: 192.168.88.74, Method: GET, Path: /favicon.ico, Body:
+2025-06-20 08:24:54 - INFO - 192.168.88.74:54466 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-20 08:24:59 - INFO - Client: 192.168.88.74, Method: OPTIONS, Path: /LerEst, Body:
+2025-06-20 08:24:59 - INFO - 192.168.88.74:54472 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-20 08:24:59 - INFO - Client: 192.168.88.74, Method: GET, Path: /LerEst, Body:
+2025-06-20 08:25:05 - INFO - 192.168.88.74:54472 - "GET /LerEst HTTP/1.1" 200
+2025-06-20 08:26:17 - INFO - Client: 192.168.88.74, Method: OPTIONS, Path: /sendmail, Body:
+2025-06-20 08:26:17 - INFO - 192.168.88.74:54591 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-20 08:26:17 - INFO - Client: 192.168.88.74, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> ABRACADEIRA | DE NYLON 200mm x 2,5mm C/ 100 UN | MC1A0034</p>\n                <p><b>Saldo:</b> 2</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Diane Ferreira</p>\n                <p><b>Motivo ou OS:</b> Organizacao das Baias</p>\n                <p><b>Data:</b> 2025-06-20</p>\n            "}
+[DEBUG] Iniciando envio de e-mail com conteúdo:
+                <p><b>Item selecionado:</b> ABRACADEIRA | DE NYLON 200mm x 2,5mm C/ 100 UN | MC1A0034</p>
+                <p><b>Saldo:</b> 2</p>
+                <p><b>Quantidade:</b> 1</p>
+                <p><b>Solicitante:</b> Diane Ferreira</p>
+                <p><b>Motivo ou OS:</b> Organizacao das Baias</p>
+                <p><b>Data:</b> 2025-06-20</p>
+
+[DEBUG] Email enviado com sucesso.
+2025-06-20 08:26:22 - INFO - 192.168.88.74:54591 - "POST /sendmail HTTP/1.1" 200
+2025-06-20 10:52:33 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 10:52:33 - INFO - 192.168.88.63:50616 - "GET /test-page HTTP/1.1" 200
+2025-06-20 10:52:34 - INFO - Client: 192.168.88.63, Method: GET, Path: /favicon.ico, Body:
+2025-06-20 10:52:34 - INFO - 192.168.88.63:50616 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-20 10:53:18 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body:
+2025-06-20 10:53:18 - INFO - 192.168.88.63:50622 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-20 10:53:18 - INFO - Client: 192.168.88.63, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina | Precisamos ter reserva.","ItensReqCompra":[{"codItem":"MC1CO150","qtde":3}]}
+[INFO] Recebendo dados da requisição...
+[INFO] Dados recebidos: {'obsReqCompra': 'Larissa Valentina | Precisamos ter reserva.', 'ItensReqCompra': [{'codItem': 'MC1CO150', 'qtde': 3}]}
+[ERROR] Falha na requisição. Status Code: 500
+Response Body: {"faultstring":"ERROR: C\u00f3digo do Produto n\u00e3o cadastrado para o C\u00f3digo [MC1CO150] !","faultcode":"SOAP-ENV:Client-107"}
+[ERROR] HTTPException: Produto não encontrado: MC1CO150
+2025-06-20 10:53:18 - INFO - 192.168.88.63:50622 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 404
+2025-06-20 10:53:26 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 10:53:26 - INFO - 192.168.88.63:50626 - "GET /test-page HTTP/1.1" 200
+2025-06-20 10:53:43 - INFO - Client: 192.168.88.63, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina | Precisamos ter reserva.","ItensReqCompra":[{"codItem":"MC1CO150","qtde":3}]}
+[INFO] Recebendo dados da requisição...
+[INFO] Dados recebidos: {'obsReqCompra': 'Larissa Valentina | Precisamos ter reserva.', 'ItensReqCompra': [{'codItem': 'MC1CO150', 'qtde': 3}]}
+[ERROR] Falha na requisição. Status Code: 500
+Response Body: {"faultstring":"ERROR: C\u00f3digo do Produto n\u00e3o cadastrado para o C\u00f3digo [MC1CO150] !","faultcode":"SOAP-ENV:Client-107"}
+[ERROR] HTTPException: Produto não encontrado: MC1CO150
+2025-06-20 10:53:43 - INFO - 192.168.88.63:50654 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 404
+2025-06-20 10:54:10 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 10:54:10 - INFO - 192.168.88.63:50670 - "GET /test-page HTTP/1.1" 200
+2025-06-20 10:54:16 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 10:54:16 - INFO - 192.168.88.63:50674 - "GET /test-page HTTP/1.1" 200
+2025-06-20 10:56:04 - INFO - Client: 192.168.88.63, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina | Precisamos ter reserva","ItensReqCompra":[{"codItem":"MC1CO150","qtde":3}]}
+[INFO] Recebendo dados da requisição...
+[INFO] Dados recebidos: {'obsReqCompra': 'Larissa Valentina | Precisamos ter reserva', 'ItensReqCompra': [{'codItem': 'MC1CO150', 'qtde': 3}]}
+[ERROR] Falha na requisição. Status Code: 500
+Response Body: {"faultstring":"ERROR: C\u00f3digo do Produto n\u00e3o cadastrado para o C\u00f3digo [MC1CO150] !","faultcode":"SOAP-ENV:Client-107"}
+[ERROR] HTTPException: Produto não encontrado: MC1CO150
+2025-06-20 10:56:04 - INFO - 192.168.88.63:50690 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 404
+2025-06-20 10:56:14 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 10:56:14 - INFO - 192.168.88.63:50695 - "GET /test-page HTTP/1.1" 200
+2025-06-20 10:56:55 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 10:56:55 - INFO - 192.168.88.63:50712 - "GET /test-page HTTP/1.1" 200
+2025-06-20 10:58:38 - INFO - Client: 192.168.88.63, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina | Precisamos de reserva","ItensReqCompra":[{"codItem":"MC1CO150","qtde":3}]}
+[INFO] Recebendo dados da requisição...
+[INFO] Dados recebidos: {'obsReqCompra': 'Larissa Valentina | Precisamos de reserva', 'ItensReqCompra': [{'codItem': 'MC1CO150', 'qtde': 3}]}
+[ERROR] Falha na requisição. Status Code: 500
+Response Body: {"faultstring":"ERROR: C\u00f3digo do Produto n\u00e3o cadastrado para o C\u00f3digo [MC1CO150] !","faultcode":"SOAP-ENV:Client-107"}
+[ERROR] HTTPException: Produto não encontrado: MC1CO150
+2025-06-20 10:58:38 - INFO - 192.168.88.63:50738 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 404
+2025-06-20 10:59:38 - INFO - Client: 192.168.88.63, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina | Precisamos de reserva","ItensReqCompra":[{"codItem":"MC1CO150","qtde":3}]}
+[INFO] Recebendo dados da requisição...
+[INFO] Dados recebidos: {'obsReqCompra': 'Larissa Valentina | Precisamos de reserva', 'ItensReqCompra': [{'codItem': 'MC1CO150', 'qtde': 3}]}
+[ERROR] Falha na requisição. Status Code: 500
+Response Body: {"faultstring":"ERROR: C\u00f3digo do Produto n\u00e3o cadastrado para o C\u00f3digo [MC1CO150] !","faultcode":"SOAP-ENV:Client-107"}
+[ERROR] HTTPException: Produto não encontrado: MC1CO150
+2025-06-20 10:59:39 - INFO - 192.168.88.63:50749 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 404
+2025-06-20 11:01:11 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 11:01:11 - INFO - 192.168.88.63:50781 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:01:26 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 11:01:26 - INFO - 192.168.88.63:50784 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:01:27 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 11:01:27 - INFO - 192.168.88.63:50784 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:01:27 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 11:01:27 - INFO - 192.168.88.63:50784 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:01:27 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 11:01:27 - INFO - 192.168.88.63:50784 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:01:28 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 11:01:28 - INFO - 192.168.88.63:50784 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:01:28 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 11:01:28 - INFO - 192.168.88.63:50784 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:03:44 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 11:03:44 - INFO - 192.168.88.63:50808 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:04:06 - INFO - Client: 192.168.88.156, Method: GET, Path: /test-page, Body:
+2025-06-20 11:04:06 - INFO - 192.168.88.156:65148 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:04:06 - INFO - Client: 192.168.88.156, Method: GET, Path: /favicon.ico, Body:
+2025-06-20 11:04:06 - INFO - 192.168.88.156:65148 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-20 11:08:15 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 11:08:15 - INFO - 192.168.88.63:50888 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:08:15 - INFO - Client: 192.168.88.63, Method: GET, Path: /favicon.ico, Body:
+2025-06-20 11:08:15 - INFO - 192.168.88.63:50888 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-20 11:08:48 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body:
+2025-06-20 11:08:48 - INFO - 192.168.88.63:50895 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-20 11:08:48 - INFO - Client: 192.168.88.63, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina | Precisamos de reserva","ItensReqCompra":[{"codItem":"MC1CO150","qtde":3}]}
+[INFO] Recebendo dados da requisição...
+[INFO] Dados recebidos: {'obsReqCompra': 'Larissa Valentina | Precisamos de reserva', 'ItensReqCompra': [{'codItem': 'MC1CO150', 'qtde': 3}]}
+[ERROR] Falha na requisição. Status Code: 500
+Response Body: {"faultstring":"ERROR: C\u00f3digo do Produto n\u00e3o cadastrado para o C\u00f3digo [MC1CO150] !","faultcode":"SOAP-ENV:Client-107"}
+[ERROR] HTTPException: Produto não encontrado: MC1CO150
+2025-06-20 11:08:49 - INFO - 192.168.88.63:50895 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 404
+2025-06-20 11:11:40 - INFO - Client: 192.168.88.63, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina | Precisamos de reserva","ItensReqCompra":[{"codItem":"MC1CO150","qtde":3}]}
+[INFO] Recebendo dados da requisição...
+[INFO] Dados recebidos: {'obsReqCompra': 'Larissa Valentina | Precisamos de reserva', 'ItensReqCompra': [{'codItem': 'MC1CO150', 'qtde': 3}]}
+[ERROR] Falha na requisição. Status Code: 500
+Response Body: {"faultstring":"ERROR: C\u00f3digo do Produto n\u00e3o cadastrado para o C\u00f3digo [MC1CO150] !","faultcode":"SOAP-ENV:Client-107"}
+[ERROR] HTTPException: Produto não encontrado: MC1CO150
+2025-06-20 11:11:41 - INFO - 192.168.88.63:50976 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 404
+2025-06-20 11:11:48 - INFO - Client: 192.168.88.63, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina | Precisamos de reserva","ItensReqCompra":[{"codItem":"MC1CO150","qtde":3}]}
+[INFO] Recebendo dados da requisição...
+[INFO] Dados recebidos: {'obsReqCompra': 'Larissa Valentina | Precisamos de reserva', 'ItensReqCompra': [{'codItem': 'MC1CO150', 'qtde': 3}]}
+[ERROR] Falha na requisição. Status Code: 500
+Response Body: {"faultstring":"ERROR: C\u00f3digo do Produto n\u00e3o cadastrado para o C\u00f3digo [MC1CO150] !","faultcode":"SOAP-ENV:Client-107"}
+[ERROR] HTTPException: Produto não encontrado: MC1CO150
+2025-06-20 11:11:48 - INFO - 192.168.88.63:50980 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 404
+2025-06-20 11:12:46 - INFO - Client: 192.168.88.156, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body:
+2025-06-20 11:12:46 - INFO - 192.168.88.156:65207 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-20 11:12:47 - INFO - Client: 192.168.88.156, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina l Precisamos de reserva","ItensReqCompra":[{"codItem":"MC1CO150","qtde":3}]}
+[INFO] Recebendo dados da requisição...
+[INFO] Dados recebidos: {'obsReqCompra': 'Larissa Valentina l Precisamos de reserva', 'ItensReqCompra': [{'codItem': 'MC1CO150', 'qtde': 3}]}
+[ERROR] Falha na requisição. Status Code: 500
+Response Body: {"faultstring":"ERROR: C\u00f3digo do Produto n\u00e3o cadastrado para o C\u00f3digo [MC1CO150] !","faultcode":"SOAP-ENV:Client-107"}
+[ERROR] HTTPException: Produto não encontrado: MC1CO150
+2025-06-20 11:12:47 - INFO - 192.168.88.156:65209 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 404
+2025-06-20 11:13:15 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 11:13:15 - INFO - 192.168.88.63:50989 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:13:25 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 11:13:25 - INFO - 192.168.88.63:51009 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:13:26 - INFO - Client: 192.168.88.63, Method: GET, Path: /favicon.ico, Body:
+2025-06-20 11:13:26 - INFO - 192.168.88.63:51009 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-20 11:13:29 - INFO - Client: 192.168.88.156, Method: GET, Path: /test-page, Body:
+2025-06-20 11:13:29 - INFO - 192.168.88.156:65212 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:13:33 - INFO - Client: 192.168.88.156, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina l Precisamos de reserva","ItensReqCompra":[{"codItem":"MC1CO150","qtde":3}]}
+[INFO] Recebendo dados da requisição...
+[INFO] Dados recebidos: {'obsReqCompra': 'Larissa Valentina l Precisamos de reserva', 'ItensReqCompra': [{'codItem': 'MC1CO150', 'qtde': 3}]}
+[ERROR] Falha na requisição. Status Code: 500
+Response Body: {"faultstring":"ERROR: C\u00f3digo do Produto n\u00e3o cadastrado para o C\u00f3digo [MC1CO150] !","faultcode":"SOAP-ENV:Client-107"}
+[ERROR] HTTPException: Produto não encontrado: MC1CO150
+2025-06-20 11:13:34 - INFO - 192.168.88.156:65219 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 404
+2025-06-20 11:13:47 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 11:13:47 - INFO - 192.168.88.63:51032 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:13:54 - INFO - Client: 192.168.88.63, Method: GET, Path: /test-page, Body:
+2025-06-20 11:13:54 - INFO - 192.168.88.63:51035 - "GET /test-page HTTP/1.1" 200
+2025-06-20 11:15:02 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body:
+2025-06-20 11:15:02 - INFO - 192.168.88.63:51066 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-20 11:15:02 - INFO - Client: 192.168.88.63, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina | Precisamos de reserva","ItensReqCompra":[{"codItem":"MC1CO150","qtde":3}]}
+[INFO] Recebendo dados da requisição...
+[INFO] Dados recebidos: {'obsReqCompra': 'Larissa Valentina | Precisamos de reserva', 'ItensReqCompra': [{'codItem': 'MC1CO150', 'qtde': 3}]}
+[ERROR] Falha na requisição. Status Code: 500
+Response Body: {"faultstring":"ERROR: C\u00f3digo do Produto n\u00e3o cadastrado para o C\u00f3digo [MC1CO150] !","faultcode":"SOAP-ENV:Client-107"}
+[ERROR] HTTPException: Produto não encontrado: MC1CO150
+2025-06-20 11:15:03 - INFO - 192.168.88.63:51066 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 404
+2025-06-20 11:20:57 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body:
+2025-06-20 11:20:57 - INFO - 192.168.88.63:51211 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-20 11:20:57 - INFO - Client: 192.168.88.63, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina | Precisamos de reserva","ItensReqCompra":[{"codItem":"MC1CO150","qtde":3}]}
+[INFO] Recebendo dados da requisição...
+[INFO] Dados recebidos: {'obsReqCompra': 'Larissa Valentina | Precisamos de reserva', 'ItensReqCompra': [{'codItem': 'MC1CO150', 'qtde': 3}]}
+[ERROR] Falha na requisição. Status Code: 500
+Response Body: {"faultstring":"ERROR: C\u00f3digo do Produto n\u00e3o cadastrado para o C\u00f3digo [MC1CO150] !","faultcode":"SOAP-ENV:Client-107"}
+[ERROR] HTTPException: Produto não encontrado: MC1CO150
+2025-06-20 11:20:57 - INFO - 192.168.88.63:51211 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 404
+2025-06-20 11:22:28 - INFO - Client: 192.168.88.156, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa Valentina l Precisamos de reserva","ItensReqCompra":[{"codItem":"MC1CO150","qtde":3}]}
+[INFO] Recebendo dados da requisição...
+[INFO] Dados recebidos: {'obsReqCompra': 'Larissa Valentina l Precisamos de reserva', 'ItensReqCompra': [{'codItem': 'MC1CO150', 'qtde': 3}]}
+[ERROR] Falha na requisição. Status Code: 500
+Response Body: {"faultstring":"ERROR: C\u00f3digo do Produto n\u00e3o cadastrado para o C\u00f3digo [MC1CO150] !","faultcode":"SOAP-ENV:Client-107"}
+[ERROR] HTTPException: Produto não encontrado: MC1CO150
+2025-06-20 11:22:29 - INFO - 192.168.88.156:65375 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 404
+2025-06-20 11:23:14 - INFO - Client: 192.168.88.156, Method: OPTIONS, Path: /RequisicaoInclusaoCompra, Body:
+2025-06-20 11:23:14 - INFO - 192.168.88.156:65391 - "OPTIONS /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-20 11:23:14 - INFO - Client: 192.168.88.156, Method: POST, Path: /RequisicaoInclusaoCompra, Body: {"obsReqCompra":"Larissa l Precisamos de Chip","ItensReqCompra":[{"codItem":"MC1S0001","qtde":3}]}
+[INFO] Recebendo dados da requisição...
+[INFO] Dados recebidos: {'obsReqCompra': 'Larissa l Precisamos de Chip', 'ItensReqCompra': [{'codItem': 'MC1S0001', 'qtde': 3}]}
+[INFO] Produto consultado: {'id_class': 0, 'kit_upreco': '', 'comb_pbio': 0, 'med_anvmis': '', 'unid_trib': '', 'fat_trib': 0, 'vei_usado': '', 'vei_vplaca': '', 'dias_vallt': 0, 'codigo_produto': 7284559323, 'codigo_produto_integracao': '', 'codigo': 'MC1S0001', 'descricao': 'SAPOLIO | CREMOSO FRASCO 300ML', 'unidade': 'UN', 'ncm': '9999.99.99', 'ean': '', 'valor_unitario': 0, 'codigo_familia': 7284494775, 'tipoItem': '07', 'produto_variacao': '', 'produto_lote': '', 'recomendacoes_fiscais': {'cnpj_fabricante': '', 'cupom_fiscal': 'N', 'id_cest': '', 'id_preco_tabelado': 0, 'indicador_escala': '', 'market_place': 'N', 'origem_mercadoria': '0'}, 'peso_liq': 0, 'peso_bruto': 0, 'altura': 0, 'largura': 0, 'profundidade': 0, 'marca': '', 'modelo': '', 'dias_garantia': 0, 'dias_crossdocking': 0, 'descr_detalhada': '', 'obs_internas': '', 'imagens': [], 'videos': None, 'caracteristicas': None, 'tabelas_preco': None, 'info': {'dAlt': '02/06/2025', 'dInc': '24/11/2023', 'hAlt': '17:31:49', 'hInc': '11:41:08', 'uAlt': 'P000884622', 'uInc': 'P000691801'}, 'exibir_descricao_nfe': 'N', 'exibir_descricao_pedido': 'N', 'medicamento': None, 'combustivel': None, 'veiculo': None, 'armamento': None, 'cst_icms': '', 'modalidade_icms': '', 'csosn_icms': '', 'aliquota_icms': 0, 'red_base_icms': 0, 'motivo_deson_icms': '', 'per_icms_fcp': 0, 'codigo_beneficio': '', 'cst_pis': '', 'aliquota_pis': 0, 'red_base_pis': 0, 'cst_cofins': '', 'aliquota_cofins': 0, 'red_base_cofins': 0, 'cfop': '', 'dadosIbpt': {'aliqEstadual': 0, 'aliqFederal': 0, 'aliqMunicipal': 0, 'chave': '', 'fonte': '', 'valido_ate': '', 'valido_de': '', 'versao': ''}, 'codInt_familia': '', 'descricao_familia': 'MATERIAL DE LIMPEZA', 'bloqueado': 'N', 'bloquear_exclusao': 'N', 'importado_api': 'N', 'inativo': 'N', 'componentes_kit': None, 'lead_time': 5, 'aliquota_ibpt': 0, 'cest': '', 'quantidade_estoque': 0, 'estoque_minimo': 0, 'origem_imposto': ''}
+Status Code: 200
+Response Body: {'codReqCompra': 7483374663, 'codIntReqCompra': 'API24251M78', 'cCodStatus': '0', 'cDesStatus': 'Requisição de Compras cadastrada com sucesso!'}
+[INFO] Requisição de compra incluída com sucesso.
+2025-06-20 11:23:16 - INFO - 192.168.88.156:65391 - "POST /RequisicaoInclusaoCompra HTTP/1.1" 200
+2025-06-20 12:51:45 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /LerEst, Body:
+2025-06-20 12:51:45 - INFO - 192.168.88.63:51822 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-20 12:51:45 - INFO - Client: 192.168.88.63, Method: GET, Path: /LerEst, Body:
+2025-06-20 12:51:51 - INFO - 192.168.88.63:51825 - "GET /LerEst HTTP/1.1" 200
+2025-06-20 14:06:38 - INFO - Client: 192.168.88.1, Method: GET, Path: /test-page, Body:
+2025-06-20 14:06:38 - INFO - 192.168.88.1:43202 - "GET /test-page HTTP/1.1" 200
+2025-06-20 14:06:38 - INFO - Client: 192.168.88.1, Method: GET, Path: /favicon.ico, Body:
+2025-06-20 14:06:38 - INFO - 192.168.88.1:43202 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-20 14:06:43 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /LerEst, Body:
+2025-06-20 14:06:43 - INFO - 192.168.88.1:43218 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-20 14:06:43 - INFO - Client: 192.168.88.1, Method: GET, Path: /LerEst, Body:
+2025-06-20 14:06:51 - INFO - 192.168.88.1:43218 - "GET /LerEst HTTP/1.1" 200
+2025-06-20 14:07:05 - INFO - Client: 192.168.88.1, Method: OPTIONS, Path: /sendmail, Body:
+2025-06-20 14:07:05 - INFO - 192.168.88.1:43210 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-20 14:07:05 - INFO - Client: 192.168.88.1, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> SACO P/LIXO | 100L PCT C/100 SACOS | MC1S0004</p>\n                <p><b>Saldo:</b> 3</p>\n                <p><b>Quantidade:</b> 1</p>\n                <p><b>Solicitante:</b> Giovanna Rodrigues</p>\n                <p><b>Motivo ou OS:</b> vicente martins</p>\n                <p><b>Data:</b> 2025-06-20</p>\n            "}
+[DEBUG] Iniciando envio de e-mail com conteúdo:
+                <p><b>Item selecionado:</b> SACO P/LIXO | 100L PCT C/100 SACOS | MC1S0004</p>
+                <p><b>Saldo:</b> 3</p>
+                <p><b>Quantidade:</b> 1</p>
+                <p><b>Solicitante:</b> Giovanna Rodrigues</p>
+                <p><b>Motivo ou OS:</b> vicente martins</p>
+                <p><b>Data:</b> 2025-06-20</p>
+
+[DEBUG] Email enviado com sucesso.
+2025-06-20 14:07:07 - INFO - 192.168.88.1:43210 - "POST /sendmail HTTP/1.1" 200
+2025-06-20 15:13:15 - INFO - Client: 192.168.88.63, Method: OPTIONS, Path: /LerEst, Body:
+2025-06-20 15:13:15 - INFO - 192.168.88.63:53288 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-20 15:13:15 - INFO - Client: 192.168.88.63, Method: GET, Path: /LerEst, Body:
+2025-06-20 15:13:28 - INFO - 192.168.88.63:53288 - "GET /LerEst HTTP/1.1" 200
+2025-06-23 08:00:40 - INFO - Client: 192.168.88.75, Method: GET, Path: /test-page, Body:
+2025-06-23 08:00:40 - INFO - 192.168.88.75:59084 - "GET /test-page HTTP/1.1" 200
+2025-06-23 08:00:41 - INFO - Client: 192.168.88.75, Method: GET, Path: /favicon.ico, Body:
+2025-06-23 08:00:41 - INFO - 192.168.88.75:59084 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-23 08:00:48 - INFO - Client: 192.168.88.75, Method: OPTIONS, Path: /LerEst, Body:
+2025-06-23 08:00:48 - INFO - 192.168.88.75:59091 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-23 08:00:48 - INFO - Client: 192.168.88.75, Method: GET, Path: /LerEst, Body:
+2025-06-23 08:01:34 - INFO - Client: 192.168.88.75, Method: GET, Path: /LerEst, Body:
+2025-06-23 08:02:32 - INFO - Client: 192.168.88.75, Method: GET, Path: /LerEst, Body:
+2025-06-23 08:03:47 - INFO - 192.168.88.75:59134 - "GET /LerEst HTTP/1.1" 500
+2025-06-23 10:32:10 - INFO - Client: 192.168.88.65, Method: GET, Path: /test-page, Body:
+2025-06-23 10:32:10 - INFO - 192.168.88.65:61098 - "GET /test-page HTTP/1.1" 200
+2025-06-23 10:32:10 - INFO - Client: 192.168.88.65, Method: GET, Path: /favicon.ico, Body:
+2025-06-23 10:32:10 - INFO - 192.168.88.65:61098 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-23 10:32:14 - INFO - Client: 192.168.88.65, Method: OPTIONS, Path: /LerEst, Body:
+2025-06-23 10:32:14 - INFO - 192.168.88.65:61102 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-23 10:32:14 - INFO - Client: 192.168.88.65, Method: GET, Path: /LerEst, Body:
+2025-06-23 10:32:23 - INFO - 192.168.88.65:61102 - "GET /LerEst HTTP/1.1" 200
+2025-06-23 10:32:48 - INFO - Client: 192.168.88.65, Method: OPTIONS, Path: /sendmail, Body:
+2025-06-23 10:32:48 - INFO - 192.168.88.65:61106 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-23 10:32:48 - INFO - Client: 192.168.88.65, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> LUVA PARA PROCEDIMENTO NAO CIRURGICO | NITRILICA AZUL SEM PO TAMANHO G C/100UN | MC1L0006</p>\n                <p><b>Saldo:</b> 24</p>\n                <p><b>Quantidade:</b> 2</p>\n                <p><b>Solicitante:</b> LUCAS</p>\n                <p><b>Motivo ou OS:</b> REPOSIÇÃO</p>\n                <p><b>Data:</b> 2025-06-23</p>\n            "}
+[DEBUG] Iniciando envio de e-mail com conteúdo:
+                <p><b>Item selecionado:</b> LUVA PARA PROCEDIMENTO NAO CIRURGICO | NITRILICA AZUL SEM PO TAMANHO G C/100UN | MC1L0006</p>
+                <p><b>Saldo:</b> 24</p>
+                <p><b>Quantidade:</b> 2</p>
+                <p><b>Solicitante:</b> LUCAS</p>
+                <p><b>Motivo ou OS:</b> REPOSIÇÃO</p>
+                <p><b>Data:</b> 2025-06-23</p>
+
+[DEBUG] Email enviado com sucesso.
+2025-06-23 10:32:50 - INFO - 192.168.88.65:61106 - "POST /sendmail HTTP/1.1" 200
+2025-06-23 11:21:32 - INFO - Client: 192.168.88.62, Method: GET, Path: /test-page, Body:
+2025-06-23 11:21:32 - INFO - 192.168.88.62:54139 - "GET /test-page HTTP/1.1" 200
+2025-06-23 11:21:32 - INFO - Client: 192.168.88.62, Method: GET, Path: /favicon.ico, Body:
+2025-06-23 11:21:32 - INFO - 192.168.88.62:54139 - "GET /favicon.ico HTTP/1.1" 404
+2025-06-23 11:21:38 - INFO - Client: 192.168.88.62, Method: OPTIONS, Path: /neovero-receiver, Body:
+2025-06-23 11:21:38 - INFO - 192.168.88.62:54149 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-06-23 11:21:38 - INFO - Client: 192.168.88.62, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"U67020M4N374886"}
+Received data: {'numeroSerie': 'U67020M4N374886'}
+Attempt 1: Status Code: 200
+{'numeroSerie': 'U67020M4N374886', 'patrimonio': None, 'modelo': {'nome': 'HL-L3240CDW', 'fabricante': {'nome': 'BROTHER'}, 'familia': {'nome': 'IMPRESSORA'}}, 'valorAquisicao': 0.0, 'clienteId': 5213, 'empresaId': 1}
+Número de Série: U67020M4N374886
+Patrimônio: None
+Nome do Equipamento: IMPRESSORA | HL-L3240CDW (BROTHER)
+Nome do Modelo: HL-L3240CDW
+Fabricante do Modelo: BROTHER
+Família do Modelo: IMPRESSORA
+Valor de Aquisição: 0.0
+Cliente ID: 5213
+Definindo codOMIE como CL devido ao cliente_id: U67020M4N374886-CL
+Descrição final: IMPRESSORA | HL-L3240CDW (BROTHER), BlocoK: 99
+7387344116
+{'numeroSerie': 'U67020M4N374886', 'patrimonio': None, 'modelo': {'nome': 'HL-L3240CDW', 'fabricante': {'nome': 'BROTHER'}, 'familia': {'nome': 'IMPRESSORA'}}, 'valorAquisicao': 0.0, 'clienteId': 5213, 'empresaId': 1, 'ncm': '9999.99.99', 'blocoK': '99', 'codigoFamilia': '7387344116', 'codOMIE': 'U67020M4N374886-CL', 'nome': 'IMPRESSORA | HL-L3240CDW (BROTHER)'}
+1
+Requisição bem-sucedida. Resposta do servidor:
+{'codigo_produto': 7484950608, 'codigo_produto_integracao': 'U67020M4N374886-CL', 'codigo_status': '0', 'descricao_status': 'Produto cadastrado com sucesso!'}
+Produto incluído com sucesso no OMIE.
+E-mail enviado com sucesso!
+2025-06-23 11:21:43 - INFO - 192.168.88.62:54151 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-23 11:21:43 - INFO - Client: 192.168.88.62, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"U67020M4N374886"}
+Received data: {'numeroSerie': 'U67020M4N374886'}
+Attempt 1: Status Code: 200
+{'numeroSerie': 'U67020M4N374886', 'patrimonio': None, 'modelo': {'nome': 'HL-L3240CDW', 'fabricante': {'nome': 'BROTHER'}, 'familia': {'nome': 'IMPRESSORA'}}, 'valorAquisicao': 0.0, 'clienteId': 5213, 'empresaId': 1}
+Número de Série: U67020M4N374886
+Patrimônio: None
+Nome do Equipamento: IMPRESSORA | HL-L3240CDW (BROTHER)
+Nome do Modelo: HL-L3240CDW
+Fabricante do Modelo: BROTHER
+Família do Modelo: IMPRESSORA
+Valor de Aquisição: 0.0
+Cliente ID: 5213
+Definindo codOMIE como CL devido ao cliente_id: U67020M4N374886-CL
+Descrição final: IMPRESSORA | HL-L3240CDW (BROTHER), BlocoK: 99
+7387344116
+{'numeroSerie': 'U67020M4N374886', 'patrimonio': None, 'modelo': {'nome': 'HL-L3240CDW', 'fabricante': {'nome': 'BROTHER'}, 'familia': {'nome': 'IMPRESSORA'}}, 'valorAquisicao': 0.0, 'clienteId': 5213, 'empresaId': 1, 'ncm': '9999.99.99', 'blocoK': '99', 'codigoFamilia': '7387344116', 'codOMIE': 'U67020M4N374886-CL', 'nome': 'IMPRESSORA | HL-L3240CDW (BROTHER)'}
+1
+Requisição bem-sucedida. Resposta do servidor:
+{'codigo_produto': 7484950608, 'codigo_produto_integracao': 'U67020M4N374886-CL', 'codigo_status': '0', 'descricao_status': 'Produto cadastrado com sucesso!'}
+Produto incluído com sucesso no OMIE.
+E-mail enviado com sucesso!
+2025-06-23 11:21:44 - INFO - 192.168.88.62:54149 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-23 11:21:56 - INFO - Client: 192.168.88.62, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"2250241145"}
+Received data: {'numeroSerie': '2250241145'}
+Attempt 1: Status Code: 200
+{'numeroSerie': '2250241145', 'patrimonio': None, 'modelo': {'nome': 'D7C10L', 'fabricante': {'nome': 'CHISON'}, 'familia': {'nome': 'TRANSDUTOR ENDOCAVITARIO'}}, 'valorAquisicao': 0.0, 'clienteId': 5213, 'empresaId': 1}
+Número de Série: 2250241145
+Patrimônio: None
+Nome do Equipamento: TRANSDUTOR ENDOCAVITARIO | D7C10L (CHISON)
+Nome do Modelo: D7C10L
+Fabricante do Modelo: CHISON
+Família do Modelo: TRANSDUTOR ENDOCAVITARIO
+Valor de Aquisição: 0.0
+Cliente ID: 5213
+Definindo codOMIE como CL devido ao cliente_id: 2250241145-CL
+Descrição final: TRANSDUTOR ENDOCAVITARIO | D7C10L (CHISON), BlocoK: 99
+7281767246
+{'numeroSerie': '2250241145', 'patrimonio': None, 'modelo': {'nome': 'D7C10L', 'fabricante': {'nome': 'CHISON'}, 'familia': {'nome': 'TRANSDUTOR ENDOCAVITARIO'}}, 'valorAquisicao': 0.0, 'clienteId': 5213, 'empresaId': 1, 'ncm': '9018.19.90', 'blocoK': '99', 'codigoFamilia': '7281767246', 'codOMIE': '2250241145-CL', 'nome': 'TRANSDUTOR ENDOCAVITARIO | D7C10L (CHISON)'}
+1
+Requisição bem-sucedida. Resposta do servidor:
+{'codigo_produto': 7484950697, 'codigo_produto_integracao': '2250241145-CL', 'codigo_status': '0', 'descricao_status': 'Produto cadastrado com sucesso!'}
+Produto incluído com sucesso no OMIE.
+E-mail enviado com sucesso!
+2025-06-23 11:21:59 - INFO - 192.168.88.62:54155 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-23 11:32:58 - INFO - Client: 192.168.88.62, Method: OPTIONS, Path: /neovero-receiver, Body:
+2025-06-23 11:32:58 - INFO - 192.168.88.62:54312 - "OPTIONS /neovero-receiver HTTP/1.1" 200
+2025-06-23 11:32:58 - INFO - Client: 192.168.88.62, Method: POST, Path: /neovero-receiver, Body: {"numeroSerie":"7205835"}
+Received data: {'numeroSerie': '7205835'}
+Attempt 1: Status Code: 200
+{'numeroSerie': '7205835', 'patrimonio': None, 'modelo': {'nome': 'UP-X898MD', 'fabricante': {'nome': 'SONY'}, 'familia': {'nome': 'VIDEO PRINTER'}}, 'valorAquisicao': 8680.0, 'clienteId': None, 'empresaId': 1}
+Número de Série: 7205835
+Patrimônio: None
+Nome do Equipamento: VIDEO PRINTER | UP-X898MD (SONY)
+Nome do Modelo: UP-X898MD
+Fabricante do Modelo: SONY
+Família do Modelo: VIDEO PRINTER
+Valor de Aquisição: 8680.0
+Cliente ID: None
+Definindo codOMIE como EQ por padrão: 7205835-EQ
+Descrição final: VIDEO PRINTER | UP-X898MD (SONY), BlocoK: 99
+7281766997
+{'numeroSerie': '7205835', 'patrimonio': None, 'modelo': {'nome': 'UP-X898MD', 'fabricante': {'nome': 'SONY'}, 'familia': {'nome': 'VIDEO PRINTER'}}, 'valorAquisicao': 8680.0, 'clienteId': None, 'empresaId': 1, 'ncm': '9022.14.19', 'blocoK': '99', 'codigoFamilia': '7281766997', 'codOMIE': '7205835-EQ', 'nome': 'VIDEO PRINTER | UP-X898MD (SONY)'}
+1
+Requisição bem-sucedida. Resposta do servidor:
+{'codigo_produto': 7484953980, 'codigo_produto_integracao': '7205835-EQ', 'codigo_status': '0', 'descricao_status': 'Produto cadastrado com sucesso!'}
+Produto incluído com sucesso no OMIE.
+E-mail enviado com sucesso!
+2025-06-23 11:33:03 - INFO - 192.168.88.62:54312 - "POST /neovero-receiver HTTP/1.1" 200
+2025-06-23 11:53:47 - INFO - Client: 192.168.88.75, Method: OPTIONS, Path: /LerEst, Body:
+2025-06-23 11:53:47 - INFO - 192.168.88.75:64152 - "OPTIONS /LerEst HTTP/1.1" 200
+2025-06-23 11:53:47 - INFO - Client: 192.168.88.75, Method: GET, Path: /LerEst, Body:
+2025-06-23 11:53:54 - INFO - 192.168.88.75:64152 - "GET /LerEst HTTP/1.1" 200
+2025-06-23 11:54:56 - INFO - Client: 192.168.88.75, Method: OPTIONS, Path: /sendmail, Body:
+2025-06-23 11:54:56 - INFO - 192.168.88.75:64171 - "OPTIONS /sendmail HTTP/1.1" 200
+2025-06-23 11:54:56 - INFO - Client: 192.168.88.75, Method: POST, Path: /sendmail, Body: {"ht_mail":"\n                <p><b>Item selecionado:</b> CAMISETA | OPUS CINZA FEMININA M | MC1C0023</p>\n                <p><b>Saldo:</b> 9</p>\n                <p><b>Quantidade:</b> 4</p>\n                <p><b>Solicitante:</b> Dyovanna</p>\n                <p><b>Motivo ou OS:</b> Para a nova colaboradora Giovanna</p>\n                <p><b>Data:</b> 2025-06-23</p>\n            "}
+[DEBUG] Iniciando envio de e-mail com conteúdo:
+                <p><b>Item selecionado:</b> CAMISETA | OPUS CINZA FEMININA M | MC1C0023</p>
+                <p><b>Saldo:</b> 9</p>
+                <p><b>Quantidade:</b> 4</p>
+                <p><b>Solicitante:</b> Dyovanna</p>
+                <p><b>Motivo ou OS:</b> Para a nova colaboradora Giovanna</p>
+                <p><b>Data:</b> 2025-06-23</p>
+
+[DEBUG] Email enviado com sucesso.
+2025-06-23 11:54:57 - INFO - 192.168.88.75:64171 - "POST /sendmail HTTP/1.1" 200
